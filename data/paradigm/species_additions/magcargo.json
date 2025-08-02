@@ -1,0 +1,19 @@
+{
+    "target": "cobblemon:magcargo",
+    "preEvolution": "slugma",
+    "evolutions": [
+      {
+        "id": "magcargo_penumbranch",
+        "variant": "level_up",
+        "result": "penumbranch",
+        "consumeHeldItem": false,
+        "learnableMoves": [],
+        "requirements": [
+          {
+            "variant": "biome",
+            "biomeCondition": "minecraft:warm_ocean"
+          }
+        ]
+      }
+    ]
+}

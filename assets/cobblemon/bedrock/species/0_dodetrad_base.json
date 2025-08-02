@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:dodetrad",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:dodetrad",
+        "model": "cobblemon:dodetrad.geo",
+        "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad.png",
+        "layers": [
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad_shiny.png",
+        "layers": [
+        ]
+      }
+    ]
+  }

@@ -1,0 +1,175 @@
+{
+    "implemented": true,
+    "name": "hydraangea",
+    "nationalPokedexNumber": 9054,
+    "labels": [
+      "custom",
+      "mega"
+    ],
+    "aspects": [
+      "flowers-color"
+    ],
+    "pokedex": [
+      "cobblemon.species.hydraangea.desc1",
+      "cobblemon.species.hydraangea.desc2"
+    ],
+    "height": 28,
+    "weight": 500,
+    "shoulderMountable": false,
+    "primaryType": "grass",
+    "secondaryType": "dragon",
+    "baseStats": {
+      "hp": 95,
+      "attack": 70,
+      "defence": 70,
+      "special_attack": 120,
+      "special_defence": 90,
+      "speed": 95
+    },
+    "catchRate": 25,
+    "maleRatio": 0.5,
+    "baseExperienceYield": 275,
+    "experienceGroup": "medium_slow",
+    "eggCycles": 25,
+    "eggGroups": [
+      "grass",
+      "dragon"
+    ],
+    "baseFriendship": 50,
+    "evYield": {
+      "special_attack": 3
+    },
+    "moves": [
+      "1:bind",
+      "1:round",
+      "1:roar",
+      "1:disarmingvoice",
+      "1:growth",
+      "7:bite",
+      "11:vinewhip",
+      "17:sweetscent",
+      "21:ingrain",
+      "27:feintattack",
+      "30:dragonbreath",
+      "31:leaftornado",
+      "31:spitup",
+      "31:stockpile",
+      "31:swallow",
+      "35:twister",
+      "37:crunch",
+      "37:spitup",
+      "37:stockpile",
+      "37:swallow",
+      "40:dragonpulse",
+      "41:crunch",
+      "41:wringout",
+      "43:echoedvoice",
+      "45:uproar",
+      "47:seedbomb",
+      "47:powerwhip",
+      "47:wringout",
+      "50:powerwhip",
+      "50:dracometeor",
+      "51:powerwhip",
+      "54:hypervoice",
+      "59:rest",
+      "59:snore",
+      "70:boomburst",
+      "egg:acidspray",
+      "egg:gigadrain",
+      "egg:grasswhistle",
+      "egg:leechseed",
+      "egg:magicalleaf",
+      "egg:ragepowder",
+      "egg:razorleaf",
+      "egg:slam",
+      "egg:sleeppowder",
+      "egg:stunspore",
+      "egg:synthesis",
+      "egg:worryseed",
+      "tm:attract",
+      "tm:bulletseed",
+      "tm:captivate",
+      "tm:confide",
+      "tm:cut",
+      "tm:doubleteam",
+      "tm:endure",
+      "tm:energyball",
+      "tm:facade",
+      "tm:flash",
+      "tm:fling",
+      "tm:frustration",
+      "tm:gigadrain",
+      "tm:gigaimpact",
+      "tm:grassknot",
+      "tm:hiddenpower",
+      "tm:hyperbeam",
+      "tm:infestation",
+      "tm:naturalgift",
+      "tm:naturepower",
+      "tm:payback",
+      "tm:protect",
+      "tm:rest",
+      "tm:return",
+      "tm:round",
+      "tm:secretpower",
+      "tm:sleeptalk",
+      "tm:sludgebomb",
+      "tm:solarbeam",
+      "tm:substitute",
+      "tm:sunnyday",
+      "tm:swagger",
+      "tm:swordsdance",
+      "tm:thief",
+      "tm:toxic",
+      "tutor:bind",
+      "tutor:bite",
+      "tutor:bugbite",
+      "tutor:defog",
+      "tutor:furycutter",
+      "tutor:gastroacid",
+      "tutor:gigadrain",
+      "tutor:knockoff",
+      "tutor:mudslap",
+      "tutor:ragepowder",
+      "tutor:seedbomb",
+      "tutor:sleeptalk",
+      "tutor:snore",
+      "tutor:synthesis",
+      "tutor:throatchop",
+      "tutor:worryseed"
+    ],
+    "abilities": [
+      "punkrock",
+      "h:technician"
+    ],
+    "baseScale": 1,
+    "hitbox": {
+      "width": 1,
+      "height": 1,
+      "fixed": false
+    },
+    "drops": {
+    "amount": "1",
+      "entries": [
+        {
+          "item": "minecraft:vines",
+          "quantityRange": "1-4",
+          "percentage": 66
+        }
+      ]
+    },
+    "behaviour": {
+      "moving": {
+      "canLook": false,
+        "fly": {
+          "canFly": false
+        },          
+        "swim": {
+          "swimSpeed": 0.2,
+          "canSwimInWater": false,
+          "canBreatheUnderwater": false
+        }
+      }
+    }
+  }

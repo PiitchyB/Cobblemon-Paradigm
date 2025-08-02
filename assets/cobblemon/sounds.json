@@ -1,0 +1,8 @@
+{
+  "pokemon.roaroot.cry": {
+    "sounds": [ "cobblemon:pokemon/roaroot/roaroot" ]
+  },
+  "pokemon.hydraangea.cry": {
+    "sounds": [ "cobblemon:pokemon/hydraangea/hydraangea" ]
+  }
+}

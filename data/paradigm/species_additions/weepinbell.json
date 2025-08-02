@@ -1,0 +1,20 @@
+{
+    "target": "cobblemon:weepinbell",
+    "evolutions": [
+        {
+          "id": "weepinbell_hexonianvictreebel",
+          "variant": "item_interact",
+          "result": "victreebel hexonian",
+          "consumeHeldItem": false,
+          "learnableMoves": [ "foulplay" ],
+          "requirements": [
+            {
+                "variant": "biome",
+                "biomeCondition": "#minecraft:is_nether"
+            }
+          ],
+          "requiredContext": "minecraft:ghast_tear"
+        }
+    ]
+    
+}

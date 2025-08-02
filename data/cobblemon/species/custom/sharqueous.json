@@ -1,0 +1,138 @@
+{
+    "implemented": true,
+    "name": "sharqueous",
+    "nationalPokedexNumber": 9055,
+    "primaryType": "water",
+    "secondaryType": "steel",
+    "abilities": [
+        "swiftswim",
+        "strongjaw",
+        "h:technician"
+    ],
+    "baseStats": {
+        "hp": 40,
+        "attack": 65,
+        "defence": 25,
+        "special_attack": 35,
+        "special_defence": 60,
+        "speed": 75
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 1.5,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            },
+            "wanderChance": 1
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 60,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "water_2"
+        
+    ],
+    "drops": {
+        "amount": "1",
+        "entries": [
+        {"item": "minecraft:iron_block", "quantityRange": "1-1", "percentage": 50}
+        ]
+    },
+    "moves": [
+        "1:aquajet",
+        "1:screech",
+        "1:leer",
+        "8:rage",
+        "15:metalclaw",
+        "21:crunch",
+        "24:shiftgear",
+        "28:waterpulse",
+        "34:ironhead",
+        "40:liquidation",
+        "43:flipturn",
+        "49:smartstrike",
+        "tm:rocksmash",
+        "tm:dive",
+        "tm:surf",
+        "tm:strength",
+        "tm:protect",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:thunderfang",
+        "tm:bite",
+        "tm:scald",
+        "tm:brine",
+        "tm:payback",
+        "tm:psychicfangs",
+        "tm:bulldoze",
+        "tm:hydropump",
+        "tm:rocktomb",
+        "tm:avalanche",
+        "tm:aerialace",
+        "tm:earthquake",
+        "tm:shadowclaw",
+        "tm:outrage",
+        "tm:thrash",
+        "tm:icefang",
+        "tm:substitute",
+        "tm:dragonrage",
+        "tm:sonicboom",
+        "tm:supersonic"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.sharqueous.desc1",
+        "cobblemon.species.sharqueous.desc2"
+    ],
+    "evolutions": [
+        {
+            "id": "sharqueous_submergine",
+            "variant": "level_up",
+            "result": "submergine",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 35
+                }
+            ]
+        }
+    ],
+    
+    "baseScale": 0.5,
+    "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 13,
+    "weight": 700
+}

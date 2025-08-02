@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:penumbranch",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:penumbranch",
+        "model": "cobblemon:penumbranch.geo",
+        "texture": "cobblemon:textures/pokemon/penumbranch/penumbranch.png",
+        "layers": [
+          {
+            "name": "glow",
+            "texture": "cobblemon:textures/pokemon/penumbranch/penumbranch_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/penumbranch/penumbranch_shiny.png",
+        "layers": [
+          {
+            "name": "glow",
+            "texture": "cobblemon:textures/pokemon/penumbranch/penumbranch_shiny_emissive.png",
+            "emissive": true,
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }

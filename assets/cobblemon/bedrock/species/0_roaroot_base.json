@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:roaroot",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:roaroot",
+        "model": "cobblemon:roaroot.geo",
+        "texture": "cobblemon:textures/pokemon/roaroot/roaroot.png",
+        "layers": [
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/roaroot/roaroot_shiny.png",
+        "layers": [
+        ]
+      }
+    ]
+  }

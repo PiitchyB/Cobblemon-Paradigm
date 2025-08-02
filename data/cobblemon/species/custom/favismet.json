@@ -1,0 +1,77 @@
+{
+  "implemented": true,
+  "name": "favismet",
+  "labels": [
+    "custom",
+    "legendary"
+  ],
+  "pokedex": [
+    "cobblemon.species.favismet.desc1",
+    "cobblemon.species.favismet.desc2"
+  ],
+  "height": 60,
+  "weight": 50,
+  "shoulderMountable": false,
+  "primaryType": "psychic",
+  "secondaryType": "dragon",
+  "baseStats": {
+    "hp": 150,
+    "attack": 80,
+    "defence": 100,
+    "special_attack": 160,
+    "special_defence": 100,
+    "speed": 100
+  },
+  "catchRate": 3,
+  "maleRatio": -1,
+  "baseExperienceYield": 340,
+  "experienceGroup": "slow",
+  "eggCycles": 120,
+  "eggGroups": [
+    "undiscovered"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "special_attack": 2,
+    "hp": 1
+  },
+  "moves": [
+    "egg:disable",
+    "20:crushclaw",
+    "tm:rest",
+    "tutor:honeclaws"
+  ],
+  "abilities": [
+    "toughclaws",
+    "h:serenegrace"
+  ],
+  "baseScale": 1,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:slimeball",
+        "quantityRange": "1",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+    "canLook": false,
+      "fly": {
+        "canFly": true
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true
+      }
+    }
+  }
+}

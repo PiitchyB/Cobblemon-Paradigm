@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:chunlong",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:chunlong",
+        "model": "cobblemon:chunlong.geo",
+        "texture": "cobblemon:textures/pokemon/chunlong/chunlong.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": false,
+            "texture": "cobblemon:textures/pokemon/chunlong/chunlong_wings.png",
+            "translucent": true
+          }
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/chunlong/chunlong_shiny.png",
+        "layers": [
+          {
+            "name": "emissive",
+            "emissive": false,
+            "texture": "cobblemon:textures/pokemon/chunlong/chunlong_wings_shiny.png",
+            "translucent": true
+          }
+        ]
+      }
+    ]
+  }

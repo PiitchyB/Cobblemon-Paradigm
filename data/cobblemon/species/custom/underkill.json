@@ -1,0 +1,130 @@
+{
+    "implemented": true,
+    "name": "underkill",
+    "nationalPokedexNumber": 9057,
+    "primaryType": "water",
+    "secondaryType": "steel",
+    "abilities": [
+        "swiftswim",
+        "strongjaw",
+        "h:technician"
+    ],
+    "baseStats": {
+        "hp": 100,
+        "attack": 130,
+        "defence": 60,
+        "special_attack": 50,
+        "special_defence": 120,
+        "speed": 140
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 3.0,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            },
+            "wanderChance": 1
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 300,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "water_2"
+        
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+        {"item": "minecraft:iron_block", "quantityRange": "3-6", "percentage": 50}
+        ]
+    },
+    "moves": [
+        "1:aquajet",
+        "1:screech",
+        "1:leer",
+        "8:rage",
+        "15:metalclaw",
+        "21:crunch",
+        "24:shiftgear",
+        "28:waterpulse",
+        "34:ironhead",
+        "40:liquidation",
+        "43:flipturn",
+        "49:smartstrike",
+        "58:lockon",
+        "64:irontail",
+        "69:wavecrash",
+        "72:aquatail",
+        "82:heavyslam",
+        "tm:rocksmash",
+        "tm:dive",
+        "tm:surf",
+        "tm:strength",
+        "tm:protect",
+        "tm:firefang",
+        "tm:furycutter",
+        "tm:thunderfang",
+        "tm:bite",
+        "tm:scald",
+        "tm:brine",
+        "tm:payback",
+        "tm:psychicfangs",
+        "tm:bulldoze",
+        "tm:hydropump",
+        "tm:rocktomb",
+        "tm:avalanche",
+        "tm:aerialace",
+        "tm:earthquake",
+        "tm:shadowclaw",
+        "tm:outrage",
+        "tm:thrash",
+        "tm:icefang",
+        "tm:substitute",
+        "tm:dragonrage",
+        "tm:sonicboom",
+        "tm:supersonic"
+    ],
+    "labels": [
+        "custom",
+        "pseudo_legendary"
+    ],
+    "pokedex": [
+        "cobblemon.species.underkill.desc1",
+        "cobblemon.species.underkill.desc2"
+    ],
+    "preEvolution": "submergine",
+    
+    "baseScale": 3.0,
+    "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 1,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 2
+    },
+    "height": 55,
+    "weight": 25000
+}

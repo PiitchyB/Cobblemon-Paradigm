@@ -1,0 +1,144 @@
+{
+    "implemented": true,
+    "name": "submergine",
+    "nationalPokedexNumber": 9056,
+    "primaryType": "water",
+    "secondaryType": "steel",
+    "abilities": [
+        "swiftswim",
+        "strongjaw",
+        "h:technician"
+    ],
+    "baseStats": {
+        "hp": 60,
+        "attack": 90,
+        "defence": 40,
+        "special_attack": 45,
+        "special_defence": 85,
+        "speed": 100
+    },
+    "behaviour": {
+        "resting": {
+            "canSleep": true,
+            "depth": "normal",
+            "light": "0-4"
+        },
+        "moving": {
+            "canLook": false,
+            "walk": {
+                "canWalk": true,
+                "avoidsLand": true
+            },
+            "swim": {
+                "swimSpeed": 2.0,
+                "canSwimInWater": true,
+                "canBreatheUnderwater": true
+            },
+            "wanderChance": 1
+        }
+    },
+    "catchRate": 45,
+    "maleRatio": 0.5,
+    "shoulderMountable": false,
+    
+    "baseExperienceYield": 155,
+    "experienceGroup": "slow",
+    "eggCycles": 40,
+    "eggGroups": [
+        "water_2"
+        
+    ],
+    "drops": {
+        "amount": "2",
+        "entries": [
+        {"item": "minecraft:iron_block", "quantityRange": "1-3", "percentage": 50}
+        ]
+    },
+    "moves": [
+      "1:aquajet",
+      "1:screech",
+      "1:leer",
+      "8:rage",
+      "15:metalclaw",
+      "21:crunch",
+      "24:shiftgear",
+      "28:waterpulse",
+      "34:ironhead",
+      "40:liquidation",
+      "43:flipturn",
+      "46:smartstrike",
+      "55:lockon",
+      "61:irontail",
+      "66:wavecrash",
+      "69:aquatail",
+      "79:heavyslam",
+      "tm:rocksmash",
+      "tm:dive",
+      "tm:surf",
+      "tm:strength",
+      "tm:protect",
+      "tm:firefang",
+      "tm:furycutter",
+      "tm:thunderfang",
+      "tm:bite",
+      "tm:scald",
+      "tm:brine",
+      "tm:payback",
+      "tm:psychicfangs",
+      "tm:bulldoze",
+      "tm:hydropump",
+      "tm:rocktomb",
+      "tm:avalanche",
+      "tm:aerialace",
+      "tm:earthquake",
+      "tm:shadowclaw",
+      "tm:outrage",
+      "tm:thrash",
+      "tm:icefang",
+      "tm:substitute",
+      "tm:dragonrage",
+      "tm:sonicboom",
+      "tm:supersonic"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "pokedex": [
+        "cobblemon.species.submergine.desc1",
+        "cobblemon.species.submergine.desc2"
+    ],
+    "preEvolution": "sharqueous",
+    "evolutions": [
+        {
+            "id": "submergine_underkill",
+            "variant": "level_up",
+            "result": "underkill",
+            "consumeHeldItem": false,
+            "learnableMoves": [],
+            "requirements": [
+                {
+                    "variant": "level",
+                    "minLevel": 60
+                }
+            ]
+        }
+    ],
+    
+    "baseScale": 2.0,
+    "hitbox": {
+        "width": 1.0,
+        "height": 1.0,
+        "fixed": false
+    },
+    "baseFriendship": 50,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 1
+    },
+    "height": 28,
+    "weight": 3000
+}

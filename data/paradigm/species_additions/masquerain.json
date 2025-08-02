@@ -1,0 +1,18 @@
+{
+    "target": "cobblemon:masquerain",
+    "evolutions": [
+        {
+          "id": "masquerain_chunlong",
+          "variant": "trade",
+          "result": "chunlong",
+          "consumeHeldItem": true,
+          "learnableMoves": [],
+          "requirements": [
+            {
+              "variant": "held_item",
+              "itemCondition": "cobblemon:dragon_scale"
+            }
+          ]
+        }
+      ]
+}

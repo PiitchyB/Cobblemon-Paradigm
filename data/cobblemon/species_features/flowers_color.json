@@ -1,0 +1,15 @@
+{
+  "type": "choice",
+  "keys": ["flowers_color"],
+  "default": "random",
+  "choices": [
+    "pink",
+    "blue",
+    "purple",
+    "yellow",
+    "black",
+    "white"
+  ],
+  "isAspect": true,
+  "aspectFormat": "flowers-color-{{choice}}"
+}

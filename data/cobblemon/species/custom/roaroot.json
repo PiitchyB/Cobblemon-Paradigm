@@ -1,0 +1,176 @@
+{
+  "implemented": true,
+  "name": "roaroot",
+  "nationalPokedexNumber": 9053,
+  "labels": [
+    "custom",
+    "baby"
+  ],
+  "pokedex": [
+    "cobblemon.species.roaroot.desc1",
+    "cobblemon.species.roaroot.desc2"
+  ],
+  "aspects": [
+    "flowers-color-pink",
+    "flowers-color-black",
+    "flowers-color-blue",
+    "flowers-color-purple",
+    "flowers-color-yellow",
+    "flowers-color-white"
+  ],
+  "height": 6,
+  "weight": 120,
+  "shoulderMountable": false,
+  "primaryType": "grass",
+  "baseStats": {
+    "hp": 40,
+    "attack": 74,
+    "defence": 60,
+    "special_attack": 70,
+    "special_defence": 60,
+    "speed": 20
+  },
+  "catchRate": 45,
+  "maleRatio": 0.5,
+  "baseExperienceYield": 73,
+  "experienceGroup": "slow",
+  "eggCycles": 10,
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseFriendship": 50,
+  "evYield": {
+    "attack": 1
+  },
+  "moves": [
+    "egg:disable",
+    "1:bind",
+    "1:growth",
+    "7:bite",
+    "11:vinewhip",
+    "17:sweetscent",
+    "21:ingrain",
+    "27:grassknot",
+    "31:leaftornado",
+    "37:stockpile",
+    "37:spitup",
+    "37:swallow",
+    "41:crunch",
+    "42:petaldance",
+    "43:echoedvoice",
+    "47:seedbomb",
+    "50:powerwhip",
+    "egg:acidspray",
+    "egg:gigadrain",
+    "egg:grasswhistle",
+    "egg:leechseed",
+    "egg:magicalleaf",
+    "egg:ragepowder",
+    "egg:razorleaf",
+    "egg:slam",
+    "egg:sleeppowder",
+    "egg:stunspore",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:captivate",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:thief",
+    "tm:toxic",
+    "tutor:bind",
+    "tutor:bite",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:furycutter",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:ragepowder",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:worryseed"
+  ],
+  "abilities": [
+    "levitate",
+    "h:technician"
+  ],
+  "evolutions": [
+    {
+      "id": "roaroot_carnivine",
+      "variant": "level_up",
+      "result": "carnivine",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "friendship",
+          "amount": 160
+        }
+      ]
+    }
+  ],
+  "baseScale": 0.8,
+  "hitbox": {
+    "width": 0.9,
+    "height": 1.4,
+    "fixed": false
+  },
+  "drops": {
+  "amount": "1",
+    "entries": [
+      {
+        "item": "minecraft:leaves",
+        "quantityRange": "1-4",
+        "percentage": 66
+      }
+    ]
+  },
+  "behaviour": {
+    "moving": {
+    "canLook": false,
+      "fly": {
+        "canFly": false
+      },          
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": false
+      }
+    }
+  }
+}

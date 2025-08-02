@@ -1,0 +1,77 @@
+{
+    "species": "cobblemon:hydraangea",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:hydraangea",
+        "model": "cobblemon:hydraangea.geo",
+        "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea.png",
+        "layers":[]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_shiny.png"
+      },
+      {
+        "aspects": [ "flowers-color-pink" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_pink.png",
+            "emissive": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "flowers-color-blue" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_blue.png",
+            "emissive": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "flowers-color-yellow" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_yellow.png",
+            "emissive": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "flowers-color-purple" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_purple.png",
+            "emissive": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "flowers-color-black" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_black.png",
+            "emissive": false
+          }
+        ]
+      },
+      {
+        "aspects": [ "flowers-color-white" ],
+        "layers": [
+          {
+            "name": "flowers",
+            "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_white.png",
+            "emissive": false
+          }
+        ]
+      }
+    ]
+  }
