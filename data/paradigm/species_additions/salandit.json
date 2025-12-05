@@ -1,0 +1,24 @@
+{
+    "target": "cobblemon:salandit",
+    "evolutions": [
+        {
+          "id": "salandit_salabberant",
+          "variant": "level_up",
+          "result": "salabberant",
+          "consumeHeldItem": false,
+          "learnableMoves": [
+            "slagray"
+          ],
+          "requirements": [
+            {
+              "variant": "level",
+              "minLevel": "33"
+            },
+            {
+                "variant": "properties",
+                "target": "gender=male"
+            }
+          ]
+        }
+      ]
+}
