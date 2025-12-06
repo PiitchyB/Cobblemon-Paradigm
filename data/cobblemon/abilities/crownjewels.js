@@ -19,17 +19,18 @@
         grassgem: "leechseed"
       };
       if (!heldGemType[source.getItem().id]) return;
+      this.add("-ability", source, "Crown Jewels", "[of] " + source);
       if (["brn", "par", "psn"].includes(heldGemType[source.getItem().id])) {
-        target.trySetStatus(heldGemType[source.getItem().id], source, effect);
+        target.setStatus(heldGemType[source.getItem().id], source, effect, true);
       } else if (heldGemType[source.getItem().id] === "haze") {
         for (const pokemon of this.getAllActive()) {
           pokemon.clearBoosts();
-          this.add("-clearallboost", pokemon);
         }
+        this.add("-clearallboost");
       } else {
         target.addVolatile(heldGemType[source.getItem().id], source, effect);
       }
-      source.useItem();
+      source.takeItem(source);
     },
     flags: { breakable: 1 },
     name: "Crown Jewels"
