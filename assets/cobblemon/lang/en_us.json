@@ -28,5 +28,10 @@
     "cobblemon.species.chunlong.desc2": "This Pokémon flies over the Hexon region, breathing in the fresh air that it has earned through its perseverance.",
     "cobblemon.species.salabberant.name": "Salabberant",
     "cobblemon.species.salabberant.desc1": "After being exiled from their herd, male Salandit that survive with enough force of will can evolve into Salabberant.",
-    "cobblemon.species.salabberant.desc2": "Oftentimes, trainers will find commanding Salabberant difficult, as it lives solely for its own benefit."
+    "cobblemon.species.salabberant.desc2": "Oftentimes, trainers will find commanding Salabberant difficult, as it lives solely for its own benefit.",
+
+    "cobblemon.move.slagray": "Slag Ray",
+    "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
+    "cobblemon.ability.crownjewels": "Crown Jewels",
+    "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem."
 }
