@@ -4,310 +4,81 @@
     "neededUninstalledMods": [],
     "spawns": [
         {
-            "id": "hydraangea-pink-swamp",
-            "pokemon": "hydraangea flowers-color-pink",
+            "id": "hydraangea-1",
+            "pokemon": "hydraangea",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 3.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-blue-swamp",
-            "pokemon": "hydraangea flowers-color-blue",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 3.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-purple-swamp",
-            "pokemon": "hydraangea flowers-color-purple",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 3.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-yellow-swamp",
-            "pokemon": "hydraangea flowers-color-yellow",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 3.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-black-swamp",
-            "pokemon": "hydraangea flowers-color-black",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 0.1,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-white-swamp",
-            "pokemon": "hydraangea flowers-color-white",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 0.1,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-pink-lush",
-            "pokemon": "hydraangea flowers-color-pink",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-blue-lush",
-            "pokemon": "hydraangea flowers-color-blue",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-purple-lush",
-            "pokemon": "hydraangea flowers-color-purple",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-yellow-lush",
-            "pokemon": "hydraangea flowers-color-yellow",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-black-lush",
-            "pokemon": "hydraangea flowers-color-black",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "43-65",
             "weight": 0.05,
             "condition": {
+                "minSkyLight": 8,
+                "maxSkyLight": 15,
+                "biomes": [
+                    "aether:skyroot_forest",
+                    "aether:skyroot_woodland",
+                    "#cobblemon:is_swamp"
+                ]
+            }
+        },
+        {
+            "id": "hydraangea-2",
+            "pokemon": "hydraangea",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "43-65",
+            "weight": 0.01,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
                 "biomes": [
                     "#cobblemon:is_lush"
                 ]
+            },
+            "anticondition": {
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
             }
         },
         {
-            "id": "hydraangea-white-lush",
-            "pokemon": "hydraangea flowers-color-white",
+            "id": "hydraangea-3",
+            "pokemon": "hydraangea",
             "presets": [
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 0.05,
+            "spawnablePositionType": "grounded",
+            "bucket": "uncommon",
+            "level": "43-65",
+            "weight": 0.01,
             "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_overworld"
+                ],
+                "structures": [
+                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+                ],
+                "minY": -41,
+                "maxY": 9
+            },
+            "anticondition": {
                 "biomes": [
                     "#cobblemon:is_lush"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-pink-forest",
-            "pokemon": "hydraangea flowers-color-pink",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-blue-forest",
-            "pokemon": "hydraangea flowers-color-blue",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-purple-forest",
-            "pokemon": "hydraangea flowers-color-purple",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-yellow-forest",
-            "pokemon": "hydraangea flowers-color-yellow",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 1.0,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-black-forest",
-            "pokemon": "hydraangea flowers-color-black",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 0.07,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-white-forest",
-            "pokemon": "hydraangea flowers-color-white",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "context": "grounded",
-            "bucket": "ultra-rare",
-            "level": "43-59",
-            "weight": 0.07,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_forest"
                 ]
             }
         }
+
     ]
 }

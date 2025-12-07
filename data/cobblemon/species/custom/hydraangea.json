@@ -143,19 +143,22 @@
       "punkrock",
       "h:technician"
     ],
-    "baseScale": 1,
+    "baseScale": 0.7,
     "hitbox": {
-      "width": 1,
-      "height": 1,
+      "width": 2.5,
+      "height": 4.2,
       "fixed": false
     },
     "drops": {
-    "amount": "1",
+    "amount": 2,
       "entries": [
         {
-          "item": "minecraft:vines",
-          "quantityRange": "1-4",
-          "percentage": 66
+          "item": "cobblemon:miracle_seed",
+          "percentage": 5.0
+        },
+        {
+          "item": "cobblemon:starf_berry",
+          "percentage": 5.0
         }
       ]
     },

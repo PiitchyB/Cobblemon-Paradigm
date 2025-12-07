@@ -1,0 +1,28 @@
+{
+  "id": "cobblemon:hydraangea",
+  "speciesId": "cobblemon:hydraangea",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": [
+    {
+      "displayName": "cobblemon.pokedex.variation.flowers",
+      "icon": "cobblemon:textures/gui/pokedex/variation/flower.png",
+      "aspects": [
+        "flowers-color-pink",
+        "flowers-color-blue",
+        "flowers-color-yellow",
+        "flowers-color-purple",
+        "flowers-color-white",
+        "flowers-color-black"
+      ]
+    }
+  ]
+}

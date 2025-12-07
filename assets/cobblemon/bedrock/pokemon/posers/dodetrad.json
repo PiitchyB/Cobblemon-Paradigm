@@ -1,0 +1,70 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [ -0.2, 1.3, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.9, 0 ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT"
+      ],
+      "animations": [
+        "q.look('far_right_head')",
+        "q.look('middle_right_head')",
+        "q.look('middle_left_head')",
+        "q.look('far_left_head')",
+        "q.bedrock('dodetrad', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dodetrad', 'blink1')",
+        "q.bedrock_quirk('dodetrad', 'blink2')",
+        "q.bedrock_quirk('dodetrad', 'blink3')",
+        "q.bedrock_quirk('dodetrad', 'blink4')"
+      ]
+    },
+    "walking": {
+      "poseTypes": [ "WALK", "SWIM" ],
+      "animations": [
+        "q.look('far_right_head')",
+        "q.look('middle_right_head')",
+        "q.look('middle_left_head')",
+        "q.look('far_left_head')",
+        "q.bedrock('dodetrad', 'ground_walk')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dodetrad', 'blink1')",
+        "q.bedrock_quirk('dodetrad', 'blink2')",
+        "q.bedrock_quirk('dodetrad', 'blink3')",
+        "q.bedrock_quirk('dodetrad', 'blink4')"
+      ]
+    },
+    "flying": {
+      "poseTypes": [ "FLY", "HOVER" ],
+      "animations": [ "q.bedrock('dodetrad', 'air_fly')" ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.look('far_right_head')",
+        "q.look('middle_right_head')",
+        "q.look('middle_left_head')",
+        "q.look('far_left_head')",
+        "q.bedrock('dodetrad', 'ground_idle')"
+      ],
+      "quirks": [
+        "q.bedrock_quirk('dodetrad', 'blink1')",
+        "q.bedrock_quirk('dodetrad', 'blink2')",
+        "q.bedrock_quirk('dodetrad', 'blink3')",
+        "q.bedrock_quirk('dodetrad', 'blink4')"
+      ]
+    }
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:roaroot",
+  "speciesId": "cobblemon:roaroot",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

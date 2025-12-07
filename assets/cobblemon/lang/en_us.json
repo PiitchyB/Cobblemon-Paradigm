@@ -29,9 +29,16 @@
     "cobblemon.species.salabberant.name": "Salabberant",
     "cobblemon.species.salabberant.desc1": "After being exiled from their herd, male Salandit that survive with enough force of will can evolve into Salabberant.",
     "cobblemon.species.salabberant.desc2": "Oftentimes, trainers will find commanding Salabberant difficult, as it lives solely for its own benefit.",
+    "cobblemon.ui.pokedex.info.form.victreebel": "",
+    "cobblemon.ui.pokedex.info.form.victreebel-hexon": "Hexonian",
+    "cobblemon.species.victreebel-hexon.desc1": "The environment of the Hexon region's Dark Hex has had a dramatic effect on the invasive Victreebel.",
+    "cobblemon.species.victreebel-hexon.desc2": "The seeds of Hexonian Victreebel are so potent, any passerby that even catches a small whiff of them will begin to hallucinate.",
 
     "cobblemon.move.slagray": "Slag Ray",
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
     "cobblemon.ability.crownjewels": "Crown Jewels",
-    "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem."
+    "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem.",
+
+    "cobblemon.ui.pokedex.region.paradigm": "Hexon",
+    "cobblemon.pokedex.variation.flowers": "Flowers"
 }

@@ -151,12 +151,15 @@
     "fixed": false
   },
   "drops": {
-  "amount": "1",
+  "amount": 2,
     "entries": [
       {
-        "item": "minecraft:leaves",
-        "quantityRange": "1-4",
-        "percentage": 66
+        "item": "cobblemon:big_root",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:energy_root",
+        "percentage": 5.0
       }
     ]
   },
@@ -164,13 +167,31 @@
     "moving": {
     "canLook": false,
       "fly": {
-        "canFly": false
+        "canFly": true
       },          
       "swim": {
         "swimSpeed": 0.2,
         "canSwimInWater": true,
         "canBreatheUnderwater": false
+      },
+      "combat": {
+        "willDefendSelf": false,
+        "willDefendOwner": true,
+        "willFlee": true
+      },
+      "resting": {
+        "drowsyChance": 0.0333,
+        "rouseChance": 0.0042
       }
     }
+  },
+  "herd": {
+    "maxSize": "4",
+    "toleratedLeaders": [
+      {
+        "pokemon": "carnivine",
+        "tier": 1
+      }
+    ]
   }
 }

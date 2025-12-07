@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:victreebel-hexon",
+  "speciesId": "cobblemon:victreebel",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hexon",
+      "unlockForms": [
+        "Hexon"
+      ]
+    }
+  ],
+  "variations": []
+}

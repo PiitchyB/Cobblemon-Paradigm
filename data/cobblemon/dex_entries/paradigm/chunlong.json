@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:chunlong",
+  "speciesId": "cobblemon:chunlong",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

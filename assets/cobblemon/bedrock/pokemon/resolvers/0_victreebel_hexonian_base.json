@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:victreebel",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [ "hexonian" ],
+        "poser": "cobblemon:victreebel_hexonian",
+        "model": "cobblemon:victreebel_hexonian.geo",
+        "texture": "cobblemon:textures/pokemon/victreebel_hexonian/victreebel_hexonian.png",
+        "layers": [
+        ]
+      },
+      {
+        "aspects": [ "shiny", "hexonian" ],
+        "texture": "cobblemon:textures/pokemon/victreebel_hexonian/victreebel_hexonian_shiny.png",
+        "layers": [
+        ]
+      }
+    ]
+  }

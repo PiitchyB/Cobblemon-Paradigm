@@ -1,0 +1,38 @@
+{
+  "portraitScale": 1.4,
+  "portraitTranslation": [ 0.1, -0.6, 0 ],
+  "profileScale": 0.6,
+  "profileTranslation": [ 0, 0.9, 0 ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE",
+        "FLOAT",
+        "WALK",
+        "SWIM",
+        "FLOAT"
+      ],
+      "animations": [
+        "q.bedrock('hexonianvictreebel', 'ground_idle')"
+      ],
+      "quirks": [ "q.bedrock_quirk('hexonianvictreebel', 'blink')" ]
+    },
+    "battle-standing": {
+      "poseTypes": [
+        "STAND",
+        "FLOAT",
+        "WALK",
+        "SWIM",
+        "FLOAT"
+      ],
+      "isBattle": true,
+      "animations": [
+        "q.bedrock('hexonianvictreebel', 'ground_idle')"
+      ],
+      "quirks": [ "q.bedrock_quirk('hexonianvictreebel', 'blink')" ]
+    }
+  }
+}

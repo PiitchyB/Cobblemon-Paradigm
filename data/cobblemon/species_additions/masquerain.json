@@ -14,5 +14,14 @@
             }
           ]
         }
-      ]
+      ],
+      "herd:": {
+        "maxSize": "4",
+        "toleratedLeaders": [
+          {
+            "pokemon": "chunlong",
+            "tier": 1
+          }
+        ]
+      }
 }

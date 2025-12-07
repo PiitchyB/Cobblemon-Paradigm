@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:penumbranch",
+  "speciesId": "cobblemon:penumbranch",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "normal",
+      "unlockForms": [
+        "normal"
+      ]
+    }
+  ],
+  "variations": []
+}

@@ -7,6 +7,7 @@
           "result": "salabberant",
           "consumeHeldItem": false,
           "learnableMoves": [
+            "suckerpunch",
             "slagray"
           ],
           "requirements": [
@@ -15,8 +16,8 @@
               "minLevel": "33"
             },
             {
-                "variant": "properties",
-                "target": "gender=male"
+              "variant": "properties",
+              "target": "gender=male"
             }
           ]
         }

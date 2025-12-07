@@ -1,0 +1,14 @@
+{
+  "type": "cobblemon:simple_pokedex_def",
+  "id": "cobblemon:paradigm",
+  "sortOrder": 12,
+  "entries": [
+    "cobblemon:victreebel-hexon",
+    "cobblemon:dodetrad",
+    "cobblemon:penumbranch",
+    "cobblemon:chunlong",
+    "cobblemon:roaroot",
+    "cobblemon:hydraangea",
+    "cobblemon:salabberant"
+  ]
+}

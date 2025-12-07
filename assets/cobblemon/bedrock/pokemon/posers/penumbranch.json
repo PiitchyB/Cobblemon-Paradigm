@@ -1,0 +1,26 @@
+{
+  "portraitScale": 1,
+  "portraitTranslation": [ -1.6, 0.2, 0 ],
+  "profileScale": 0.3,
+  "profileTranslation": [ 0, 0.85, 0 ],
+  "poses": {
+    "standing": {
+      "poseTypes": [
+        "STAND",
+        "NONE",
+        "PORTRAIT",
+        "PROFILE"
+      ],
+      "animations": [
+        "q.look('head')"
+      ]
+    },
+    "battle-standing": {
+      "poseTypes": [ "STAND" ],
+      "isBattle": true,
+      "animations": [
+        "q.look('head')"
+      ]
+    }
+  }
+}

@@ -10,14 +10,14 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "46-59",
             "weight": 0.02,
             "condition": {
                 "biomes": [
-                    "minecraft:basalt_deltas",
-                    "minecraft:nether_wastes"
+                    "#cobblemon:nether/is_basalt",
+                    "#cobblemon:nether/is_wasteland"
                 ]
             }
         },
@@ -25,16 +25,17 @@
             "id": "penumbranch-2",
             "pokemon": "penumbranch",
             "presets": [
-                "lava_surface"
+                "lava"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "surface",
             "bucket": "common",
             "level": "46-59",
             "weight": 0.1,
             "condition": {
                 "biomes": [
-                    "#minecraft:is_nether"
+                    "#minecraft:is_nether",
+                    "#cobblemon:is_volcanic"
                 ]
             }
         },
@@ -42,10 +43,10 @@
             "id": "penumbranch-3",
             "pokemon": "penumbranch",
             "presets": [
-                "lava_surface"
+                "lava"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "surface",
             "bucket": "common",
             "level": "46-59",
             "weight": 0.02,
@@ -67,7 +68,7 @@
                 "natural"
             ],
             "type": "pokemon",
-            "context": "grounded",
+            "spawnablePositionType": "grounded",
             "bucket": "common",
             "level": "46-59",
             "weight": 0.1,
@@ -84,34 +85,20 @@
             "id": "penumbranch-5",
             "pokemon": "penumbranch",
             "presets": [
-                "lava_surface"
+                "water"
             ],
             "type": "pokemon",
-            "context": "surface",
+            "spawnablePositionType": "seafloor",
             "bucket": "common",
             "level": "46-59",
-            "weight": 0.1,
+            "weight": 0.01,
             "condition": {
-                "biomes": [
-                    "#cobblemon:is_volcanic"
-                ]
-            }
-        },
-        {
-            "id": "penumbranch-6",
-            "pokemon": "penumbranch",
-            "presets": [
-                "underwater"
-            ],
-            "type": "pokemon",
-            "context": "submerged",
-            "bucket": "common",
-            "level": "46-59",
-            "weight": 0.1,
-            "condition": {
+                "canSeeSky": true,
                 "biomes": [
                     "minecraft:warm_ocean"
-                ]
+                ],
+                "maxY": 50,
+                "minY": 20
             }
         }
     ]

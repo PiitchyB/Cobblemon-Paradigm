@@ -1,0 +1,94 @@
+{
+  "implemented": true,
+  "target": "cobblemon:victreebel",
+  "features": ["hexonian"],
+  "forms": [
+    {
+      "name": "Hexon",
+      "primaryType": "dark",
+      "secondaryType": "psychic",
+      "labels": ["gen1", "hexonian"],
+      "aspects": ["hexonian"],
+      "abilities": ["aftermath", "h:prankster"],
+      "baseStats": {
+        "hp": 90,
+        "attack": 50,
+        "defence": 100,
+        "special_attack": 50,
+        "special_defence": 100,
+        "speed": 100
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 1,
+        "special_attack": 0,
+        "special_defence": 1,
+        "speed": 1
+      },
+      "pokedex": [
+        "cobblemon.species.victreebel-hexon.desc1",
+        "cobblemon.species.victreebel-hexon.desc2"
+      ],
+      "moves": [
+        "1:acid",
+        "1:knockoff",
+        "1:torment",
+        "1:nastyplot",
+        "1:foulplay",
+        "1:imprison",
+        "1:taunt",
+        "1:trick",
+        "1:fling",
+        "1:thief",
+        "1:partingshot",
+        "1:switcheroo",
+        "1:brutalswing",
+        "1:beatup",
+        "1:amnesia",
+        "1:allyswitch",
+        "1:agility",
+        "1:reflect",
+        "1:lightscreen",
+        "1:powerswap",
+        "1:powertrick",
+        "1:powersplit",
+        "1:trickroom",
+        "1:confusion",
+        "1:poisonfang",
+        "1:clearsmog",
+        "1:grassknot",
+        "1:leaftornado",
+        "1:razorleaf",
+        "1:stunspore",
+        "1:poisonpowder",
+        "1:synthesis",
+        "1:spore",
+        "24:cosmicpower",
+        "32:extrasensory",
+        "44:memento",
+        "tm:toxic"
+          ],
+      "eggGroups": ["grass"],
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:purple_dye",
+            "percentage": 70
+          },
+          {
+            "item": "minecraft:magenta_dye",
+            "percentage": 70
+          }
+        ]
+      },
+      "baseScale": 1,
+      "hitbox": {
+        "width": 0.7,
+        "height": 1.6,
+        "fixed": false
+      }
+    }
+  ]
+}

@@ -110,5 +110,14 @@
       "tutor:synthesis",
       "tutor:throatchop",
       "tutor:worryseed"
-    ]
+    ],
+    "herd": {
+      "maxSize": "5",
+      "toleratedLeaders": [
+        {
+          "pokemon": "hydraangea",
+          "tier": 1
+        }
+      ]
+    }
 }
