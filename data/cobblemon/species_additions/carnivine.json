@@ -7,7 +7,9 @@
         "variant": "level_up",
         "result": "hydraangea",
         "consumeHeldItem": false,
-        "learnableMoves": [],
+        "learnableMoves": [
+          "bottomlessbellow"
+        ],
         "requirements": [
           {
               "variant": "has_move",

@@ -32,6 +32,6 @@
       }
       source.takeItem(source);
     },
-    flags: { breakable: 1 },
+    flags: {},
     name: "Crown Jewels"
 }

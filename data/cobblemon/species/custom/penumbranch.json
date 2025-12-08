@@ -7,7 +7,7 @@
     "abilities": [
         "drought",
         "drizzle",
-        "h:steamengine"
+        "h:dormant"
     ],
     "baseStats": {
         "hp": 80,
@@ -34,8 +34,7 @@
                 "canWalkOnLava": true,
                 "canBreatheUnderLava": true,
                 "canSwimInLava": true
-            },
-            "wanderChance": 1
+            }
         }
     },
     "catchRate": 75,
@@ -178,7 +177,8 @@
         "tutor:toxic"
     ],
     "labels": [
-        "custom"
+        "custom",
+        "mega"
     ],
     "pokedex": [
         "cobblemon.species.penumbranch.desc1",

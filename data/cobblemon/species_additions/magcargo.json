@@ -11,7 +11,7 @@
         "requirements": [
           {
             "variant": "biome",
-            "biomeCondition": "minecraft:warm_ocean"
+            "biomeCondition": "#cobblemon:is_warm_ocean"
           }
         ]
       }

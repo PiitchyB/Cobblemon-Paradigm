@@ -36,8 +36,15 @@
 
     "cobblemon.move.slagray": "Slag Ray",
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
+    "cobblemon.move.bottomlessbellow": "Bottomless Bellow",
+    "cobblemon.move.bottomlessbellow.desc": "The user lets out a roar from all of its mouths, hitting the target three times. The next time the move is used after it knocks out a target, it hits an additional time.",
+
     "cobblemon.ability.crownjewels": "Crown Jewels",
     "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem.",
+    "cobblemon.ability.dormant": "Dormant",
+    "cobblemon.ability.dormant.desc": "Contact with the Pokémon lowers its Defense but boosts its Sp. Atk and Speed stats.",
+    "cobblemon.ability.serpentsynergy": "Serpent Synergy",
+    "cobblemon.ability.serpentsynergy.desc": "Sound-based moves become Grass-type moves and are boosted.",
 
     "cobblemon.ui.pokedex.region.paradigm": "Hexon",
     "cobblemon.pokedex.variation.flowers": "Flowers"

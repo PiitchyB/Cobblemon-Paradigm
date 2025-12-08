@@ -45,6 +45,7 @@
       "1:roar",
       "1:disarmingvoice",
       "1:growth",
+      "1:bottomlessbellow",
       "7:bite",
       "11:vinewhip",
       "17:sweetscent",
@@ -140,7 +141,7 @@
       "tutor:worryseed"
     ],
     "abilities": [
-      "punkrock",
+      "serpentsynergy",
       "h:technician"
     ],
     "baseScale": 0.7,

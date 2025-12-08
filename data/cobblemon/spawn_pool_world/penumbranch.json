@@ -95,7 +95,7 @@
             "condition": {
                 "canSeeSky": true,
                 "biomes": [
-                    "minecraft:warm_ocean"
+                    "#cobblemon:is_warm_ocean"
                 ],
                 "maxY": 50,
                 "minY": 20
