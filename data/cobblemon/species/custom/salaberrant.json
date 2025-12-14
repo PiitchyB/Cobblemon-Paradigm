@@ -1,15 +1,15 @@
 {
   "implemented": true,
   "nationalPokedexNumber": 9059,
-  "name": "Salabberant",
+  "name": "Salaberrant",
   "primaryType": "poison",
   "secondaryType": "fire",
   "maleRatio": 1,
   "height": 17,
   "weight": 612,
   "pokedex": [
-    "cobblemon.species.salabberant.desc1",
-    "cobblemon.species.salabberant.desc2"
+    "cobblemon.species.salaberrant.desc1",
+    "cobblemon.species.salaberrant.desc2"
   ],
   "labels": [
     "custom"
@@ -44,10 +44,10 @@
   "catchRate": 120,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 0.6,
+  "baseScale": 1.1,
   "hitbox": {
-    "width": 1.1,
-    "height": 0.85,
+    "width": 1.5,
+    "height": 1.7,
     "fixed": false
   },
   "behaviour": {

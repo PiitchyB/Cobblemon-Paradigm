@@ -2,9 +2,9 @@
     "target": "cobblemon:salandit",
     "evolutions": [
         {
-          "id": "salandit_salabberant",
+          "id": "salandit_salaberrant",
           "variant": "level_up",
-          "result": "salabberant",
+          "result": "salaberrant",
           "consumeHeldItem": false,
           "learnableMoves": [
             "suckerpunch",

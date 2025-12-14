@@ -1,0 +1,20 @@
+{
+    "species": "cobblemon:salaberrant",
+    "order": 0,
+    "variations": [
+      {
+        "aspects": [],
+        "poser": "cobblemon:salaberrant",
+        "model": "cobblemon:salaberrant.geo",
+        "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant.png",
+        "layers": [
+        ]
+      },
+      {
+        "aspects": [ "shiny" ],
+        "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_shiny.png",
+        "layers": [
+        ]
+      }
+    ]
+  }
