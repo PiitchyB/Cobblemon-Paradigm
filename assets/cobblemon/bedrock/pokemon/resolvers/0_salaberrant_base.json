@@ -8,12 +8,24 @@
         "model": "cobblemon:salaberrant.geo",
         "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant.png",
         "layers": [
+          {
+            "name": "hair",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_hair.png",
+            "emissive": true,
+            "translucent": true
+          }
         ]
       },
       {
         "aspects": [ "shiny" ],
         "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_shiny.png",
         "layers": [
+          {
+            "name": "hair",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_shiny_hair.png",
+            "emissive": true,
+            "translucent": true
+          }
         ]
       }
     ]

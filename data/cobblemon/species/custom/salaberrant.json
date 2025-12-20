@@ -230,5 +230,9 @@
     "legacy:snore"
   ],
   "preEvolution": "salandit",
-  "evolutions": []
+  "evolutions": [],
+  "lightingData": {
+    "lightLevel": 15,
+    "liquidGlowMode": "LAND"
+  }
 }
