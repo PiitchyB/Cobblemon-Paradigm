@@ -1,7 +1,7 @@
 {
     num: 9000,
     accuracy: 100,
-    basePower: 15,
+    basePower: 30,
     category: "Special",
     name: "Bottomless Bellow",
     pp: 5,
