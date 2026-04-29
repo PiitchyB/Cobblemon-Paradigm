@@ -27,6 +27,168 @@
             "translucent": true
           }
         ]
+      },
+      {
+        "aspects": [ "gems-normal" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_normal.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-fire" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_fire.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-water" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_water.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-electric" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_electric.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-grass" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_grass.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-ice" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_ice.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-fighting" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_fighting.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-poison" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_poison.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-ground" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_ground.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-flying" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_flying.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-psychic" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_psychic.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-bug" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_bug.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-rock" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_rock.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-ghost" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_ghost.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-dragon" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_dragon.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-dark" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_dark.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-steel" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_steel.png"
+          }
+        ]
+      },
+      {
+        "aspects": [ "gems-fairy" ],
+        "layers": [
+          {
+            "name": "gems",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_gems_fairy.png"
+          }
+        ]
       }
     ]
   }

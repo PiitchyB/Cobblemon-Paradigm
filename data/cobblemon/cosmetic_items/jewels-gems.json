@@ -1,0 +1,77 @@
+{
+  "pokemon": ["salaberrant"],
+  "cosmeticItems": [
+    {
+      "consumedItem": "cobblemon:normal_gem",
+      "aspects": ["gems-normal"]
+    },
+    {
+      "consumedItem": "cobblemon:fire_gem",
+      "aspects": ["gems-fire"]
+    },
+    {
+      "consumedItem": "cobblemon:water_gem",
+      "aspects": ["gems-water"]
+    },
+    {
+      "consumedItem": "cobblemon:electric_gem",
+      "aspects": ["gems-electric"]
+    },
+    {
+      "consumedItem": "cobblemon:grass_gem",
+      "aspects": ["gems-grass"]
+    },
+    {
+      "consumedItem": "cobblemon:ice_gem",
+      "aspects": ["gems-ice"]
+    },
+    {
+      "consumedItem": "cobblemon:fighting_gem",
+      "aspects": ["gems-fighting"]
+    },
+    {
+      "consumedItem": "cobblemon:poison_gem",
+      "aspects": ["gems-poison"]
+    },
+    {
+      "consumedItem": "cobblemon:ground_gem",
+      "aspects": ["gems-ground"]
+    },
+    {
+      "consumedItem": "cobblemon:flying_gem",
+      "aspects": ["gems-flying"]
+    },
+    {
+      "consumedItem": "cobblemon:psychic_gem",
+      "aspects": ["gems-psychic"]
+    },
+    {
+      "consumedItem": "cobblemon:bug_gem",
+      "aspects": ["gems-bug"]
+    },
+    {
+      "consumedItem": "cobblemon:rock_gem",
+      "aspects": ["gems-rock"]
+    },
+    {
+      "consumedItem": "cobblemon:ghost_gem",
+      "aspects": ["gems-ghost"]
+    },
+    {
+      "consumedItem": "cobblemon:dragon_gem",
+      "aspects": ["gems-dragon"]
+    },
+    {
+      "consumedItem": "cobblemon:dark_gem",
+      "aspects": ["gems-dark"]
+    },
+    {
+      "consumedItem": "cobblemon:steel_gem",
+      "aspects": ["gems-steel"]
+    },
+    {
+      "consumedItem": "cobblemon:fairy_gem",
+      "aspects": ["gems-fairy"]
+    }
+  ]
+}
