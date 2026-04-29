@@ -38,6 +38,8 @@
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
     "cobblemon.move.bottomlessbellow": "Bottomless Bellow",
     "cobblemon.move.bottomlessbellow.desc": "The user lets out a roar from all of its mouths, hitting the target three times. The next time the move is used after it knocks out a target, it hits an additional time.",
+    "cobblemon.move.atomicdoover": "Atomic-Do-Over",
+    "cobblemon.move.atomicdoover.desc": "The user reconstructs their very being down to the atomic level in order to optimize it for offense, drastically raising Special Attack and Speed, but lowering Defense and Special Defense just as much.",
 
     "cobblemon.ability.crownjewels": "Crown Jewels",
     "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem.",
