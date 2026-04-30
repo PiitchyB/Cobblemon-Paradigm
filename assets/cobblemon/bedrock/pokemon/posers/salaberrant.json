@@ -34,7 +34,6 @@
         "walking": {
             "poseTypes": ["WALK"],
             "animations": [
-                "q.look('head')",
                 "q.bedrock('salaberrant', 'ground_walk')"
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
