@@ -1,0 +1,86 @@
+{
+    "enabled": true,
+    "neededInstalledMods": [],
+    "neededUninstalledMods": [],
+    "spawns": [
+        {
+            "id": "salaberrant-1",
+            "pokemon": "salaberrant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "33-48",
+            "weight": 0.05,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "salaberrant-2",
+            "pokemon": "salaberrant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "33-48",
+            "weight": 0.05,
+            "condition": {
+                "minSkyLight": 0,
+                "maxSkyLight": 7,
+                "biomes": [
+                    "#cobblemon:is_badlands",
+                    "#cobblemon:is_mountain"
+                ],
+                "neededNearbyBlocks": [
+                    "minecraft:lava"
+                ]
+            },
+            "anticondition": {
+                "biomes": [
+                    "#cobblemon:is_volcanic"
+                ]
+            }
+        },
+        {
+            "id": "salaberrant-3",
+            "pokemon": "salaberrant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "33-48",
+            "weight": 0.05,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_basalt"
+                ]
+            }
+        },
+        {
+            "id": "salaberrant-4",
+            "pokemon": "salaberrant",
+            "presets": [
+                "natural"
+            ],
+            "type": "pokemon",
+            "spawnablePositionType": "grounded",
+            "bucket": "common",
+            "level": "33-48",
+            "weight": 0.03,
+            "condition": {
+                "biomes": [
+                    "#cobblemon:nether/is_desert"
+                ]
+            }
+        }
+    ]
+}
