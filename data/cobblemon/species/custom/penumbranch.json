@@ -6,7 +6,7 @@
     "secondaryType": "water",
     "abilities": [
         "drought",
-        "drizzle",
+        "regenerator",
         "h:dormant"
     ],
     "baseStats": {
@@ -75,11 +75,11 @@
         "36:amnesia",
         "43:muddywater",
         "47:recover",
+        "52:flipturn",
         "54:flamethrower",
         "58:hydropump",
-        "65:eruption",
-        "69:hydrosteam",
-        "72:steameruption",
+        "60:hydrosteam",
+        "65:steameruption",
         "tm:attract",
         "tm:bulldoze",
         "tm:captivate",

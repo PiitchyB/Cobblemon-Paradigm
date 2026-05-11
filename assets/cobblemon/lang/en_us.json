@@ -47,6 +47,8 @@
     "cobblemon.ability.dormant.desc": "Contact with the Pokémon lowers its Defense but boosts its Sp. Atk and Speed stats.",
     "cobblemon.ability.serpentsynergy": "Serpent Synergy",
     "cobblemon.ability.serpentsynergy.desc": "Sound-based moves become Grass-type moves and are boosted.",
+    "cobblemon.ability.moltscale": "Molt Scale",
+    "cobblemon.ability.moltscale.desc": "Grants the Pokémon's lower defensive stat half of its current higher defensive stat as a boost.",
 
     "cobblemon.ui.pokedex.region.paradigm": "Hexon",
     "cobblemon.pokedex.variation.flowers": "Flowers"
