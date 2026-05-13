@@ -40,6 +40,8 @@
     "cobblemon.move.bottomlessbellow.desc": "The user lets out a roar from all of its mouths, hitting the target three times. The next time the move is used after it knocks out a target, it hits an additional time.",
     "cobblemon.move.atomicdoover": "Atomic-Do-Over",
     "cobblemon.move.atomicdoover.desc": "The user reconstructs their very being down to the atomic level in order to optimize it for offense, drastically raising Special Attack and Speed, but lowering Defense and Special Defense just as much.",
+    "cobblemon.move.ficklebeak": "Fickle Beak",
+    "cobblemon.move.ficklebeak.desc": "The user strikes the target with all four of its beaks, with each hit having a 30% chance to be double in power.",
 
     "cobblemon.ability.crownjewels": "Crown Jewels",
     "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem.",
@@ -49,6 +51,8 @@
     "cobblemon.ability.serpentsynergy.desc": "Sound-based moves become Grass-type moves and are boosted.",
     "cobblemon.ability.moltscale": "Molt Scale",
     "cobblemon.ability.moltscale.desc": "Grants the Pokémon's lower defensive stat half of its current higher defensive stat as a boost.",
+    "cobblemon.ability.speedblitz": "Speed Blitz",
+    "cobblemon.ability.speedblitz.desc": "The faster the Pokémon is compared to its opponent, the stronger its moves become and the more damage it takes.",
 
     "cobblemon.ui.pokedex.region.paradigm": "Hexon",
     "cobblemon.pokedex.variation.flowers": "Flowers"
