@@ -1,6 +1,6 @@
 {
   "type": "choice",
-  "keys": ["gems-type"],
+  "keys": ["gems_type"],
   "default": "none",
   "choices": [
     "normal",
