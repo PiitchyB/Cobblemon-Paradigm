@@ -3330,6 +3330,9 @@
 				"tail_left6": {
 					"rotation": ["-math.cos(query.anim_time * 120 - 50) * 15", -2.8076, -6.3233]
 				},
+				"tail": {
+					"scale": 0
+				},
 				"hair2": {
 					"rotation": ["-math.cos(query.anim_time * 120 - 20) * 1.5", 0, 0]
 				},
