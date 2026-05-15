@@ -586,14 +586,14 @@
 			"animation_length": 2,
 			"bones": {
 				"torso": {
-					"rotation": [22.5, 0, 0],
+					"rotation": ["22.5 - math.cos(query.anim_time * 180) * 2", 0, 0],
 					"position": [0, "-0.5 + math.cos(query.anim_time * 180) * 0.5", 0]
 				},
 				"waist": {
 					"rotation": ["-25 + math.cos(query.anim_time * 180) * 2.5", 0, 0]
 				},
 				"chest": {
-					"rotation": ["-5 - math.cos(query.anim_time * 180) * 2.5", 0, 0]
+					"rotation": ["-5 - math.cos(query.anim_time * 180 - 30) * -3", 0, 0]
 				},
 				"neck": {
 					"rotation": ["11.25 - math.cos(query.anim_time * 180) * 1.25", 0, 0]
@@ -608,7 +608,7 @@
 					}
 				},
 				"jaw": {
-					"rotation": ["3.75 - math.cos(query.anim_time * 180) * 1.25", 0, 0]
+					"rotation": ["3.75 - math.cos(query.anim_time * 180 - 30) * 1.25", 0, 0]
 				},
 				"leg_right": {
 					"rotation": {
@@ -999,10 +999,7 @@
 					}
 				},
 				"arm_right": {
-					"rotation": {
-						"0.0": [27.28625, -44.80121, -24.66155],
-						"2.0": [27.28625, -44.80121, -24.66155]
-					}
+					"rotation": ["27.2862523182 - math.cos(query.anim_time * 180) * 3", -44.80121, "-24.6615527343 + math.cos(query.anim_time * 180) * 3"]
 				},
 				"arm_right2": {
 					"rotation": {
@@ -1089,10 +1086,7 @@
 					}
 				},
 				"arm_left": {
-					"rotation": {
-						"0.0": [27.28625, 44.80121, 24.66155],
-						"2.0": [27.28625, 44.80121, 24.66155]
-					}
+					"rotation": ["27.2862523182 - math.cos(query.anim_time * 180) * 3", 44.80121, "24.6615527343 + math.cos(query.anim_time * 180) * -3"]
 				},
 				"arm_left2": {
 					"rotation": {
@@ -1200,7 +1194,7 @@
 					"rotation": [0, 0, "12.5 + math.cos(query.anim_time * 720) * 10"]
 				},
 				"finger_left4_2": {
-					"rotation": [0, 0, "13.75 + math.cos(query.anim_time * 720) * 6.25"]
+					"rotation": [0, 0, "13.75 + math.cos(query.anim_time * 720 - 60) * 6.25"]
 				},
 				"finger_left5_2": {
 					"rotation": {
@@ -1254,13 +1248,13 @@
 					"rotation": [-5, 0, 0]
 				},
 				"hair3": {
-					"rotation": ["-3.75 + math.cos(query.anim_time * 180) * 1.25", 0, 0]
+					"rotation": ["-3.75 + math.cos(query.anim_time * 180 - 50) * 1.25", 0, 0]
 				},
 				"hair4": {
-					"rotation": [-7.5, 0, 0]
+					"rotation": ["-7.5 + math.cos(query.anim_time * 180 - 100) * 1.25", 0, 0]
 				},
 				"hair5": {
-					"rotation": ["-8.75 + math.cos(query.anim_time * 180) * 1.25", 0, 0]
+					"rotation": ["-8.75 + math.cos(query.anim_time * 180 - 150) * 1.25", 0, 0]
 				}
 			}
 		},
