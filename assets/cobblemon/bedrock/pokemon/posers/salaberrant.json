@@ -16,8 +16,16 @@
             "poseTypes": ["STAND"],
             "isBattle": true,
             "animations": [
-                "q.look('head')",
-                "q.bedrock('salaberrant', 'battle_idle')"
+                "q.look('head_ai')",
+                "q.bedrock('salaberrant', 'battle_idle')",
+                {
+                    "condition": "q.is_wearing_hat",
+                    "animation": "q.bedrock('salaberrant', 'hat')"
+                },
+                {
+                    "condition": "q.is_wearing_face",
+                    "animation": "q.bedrock('salaberrant', 'face')"
+                }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
         },
@@ -25,23 +33,60 @@
             "poseTypes": ["STAND", "NONE", "PORTRAIT", "PROFILE"],
             "isBattle": false,
             "animations": [
-                "q.look('head')",
-                "q.look('hair', -1, 0, 0, -45, 0, 0)",
-                "q.bedrock('salaberrant', 'ground_idle')"
+                "q.look('neck2_ai', 0.5, 1, 20, -45, 20, -20)",
+                "q.look('head_ai', 1, 1, 70, -45, 25, -25)",
+                "q.look('hair2', -1.4, -1, 0, -45)",
+                "q.bedrock('salaberrant', 'ground_idle')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('salaberrant', 'hold_item')"
+                },
+                {
+                    "condition": "q.is_wearing_hat",
+                    "animation": "q.bedrock('salaberrant', 'hat')"
+                },
+                {
+                    "condition": "q.is_wearing_face",
+                    "animation": "q.bedrock('salaberrant', 'face')"
+                }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
         },
         "walking": {
             "poseTypes": ["WALK"],
             "animations": [
-                "q.bedrock('salaberrant', 'ground_walk')"
+                "q.bedrock('salaberrant', 'ground_walk')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('salaberrant', 'hold_item')"
+                },
+                {
+                    "condition": "q.is_wearing_hat",
+                    "animation": "q.bedrock('salaberrant', 'hat')"
+                },
+                {
+                    "condition": "q.is_wearing_face",
+                    "animation": "q.bedrock('salaberrant', 'face')"
+                }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
         },
         "sleep": {
             "poseTypes": ["SLEEP"],
             "animations": [
-                "q.bedrock('salaberrant', 'sleep')"
+                "q.bedrock('salaberrant', 'sleep')",
+                {
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('salaberrant', 'hold_item')"
+                },
+                {
+                    "condition": "q.is_wearing_hat",
+                    "animation": "q.bedrock('salaberrant', 'hat')"
+                },
+                {
+                    "condition": "q.is_wearing_face",
+                    "animation": "q.bedrock('salaberrant', 'face')"
+                }
             ]
         }
     }
