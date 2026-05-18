@@ -19,15 +19,35 @@
       ],
       "isBattle": false,
       "animations": [
+        "q.look('abdomen', -0.5, -0.5)",
         "q.look('head')",
-        "q.bedrock('chunlong', 'ground_idle')"
+        "q.bedrock('chunlong', 'ground_idle')",
+        {
+            "condition": "q.is_wearing_hat",
+            "animation": "q.bedrock('chunlong', 'hat')"
+        },
+        {
+            "condition": "q.is_wearing_face",
+            "animation": "q.bedrock('chunlong', 'face')"
+        }
       ],
-      "quirks": [ "q.bedrock_quirk('chunlong', 'blink')" ]
+      "quirks": [ "q.bedrock_quirk('chunlong', 'blink')",
+    "q.bedrock_quirk('chunlong', 'idle_quirk')" ]
     },
     "walking": {
       "poseTypes": [ "WALK", "FLY" ],
-      "animations": [ "q.bedrock('chunlong', 'ground_walk')" ],
-      "quirks": [ "q.bedrock_quirk('chunlong', 'blink')" ]
+      "animations": [ "q.bedrock('chunlong', 'ground_walk')",
+        {
+            "condition": "q.is_wearing_hat",
+            "animation": "q.bedrock('chunlong', 'hat')"
+        },
+        {
+            "condition": "q.is_wearing_face",
+            "animation": "q.bedrock('chunlong', 'face')"
+        }
+      ],
+      "quirks": [ "q.bedrock_quirk('chunlong', 'blink')",
+    "q.bedrock_quirk('chunlong', 'idle_quirk')" ]
     },
     "sleep": {
       "poseTypes": [ "SLEEP" ],
@@ -40,7 +60,16 @@
         "HOVER"
       ],
       "isBattle": true,
-      "animations": [ "q.bedrock('chunlong', 'ground_idle')" ],
+      "animations": [ "q.bedrock('chunlong', 'ground_idle')",
+        {
+            "condition": "q.is_wearing_hat",
+            "animation": "q.bedrock('chunlong', 'hat')"
+        },
+        {
+            "condition": "q.is_wearing_face",
+            "animation": "q.bedrock('chunlong', 'face')"
+        }
+      ],
       "quirks": [ "q.bedrock_quirk('chunlong', 'blink')" ]
     }
   }

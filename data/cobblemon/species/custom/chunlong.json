@@ -23,7 +23,7 @@
             "light": "0-4"
         },
         "moving": {
-            "canLook": false,
+            "canLook": true,
             "walk": {
                 "canWalk": false,
                 "avoidsLand": false
