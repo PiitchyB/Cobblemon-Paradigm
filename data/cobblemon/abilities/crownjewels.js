@@ -18,19 +18,25 @@
         normalgem: "yawn",
         grassgem: "leechseed"
       };
-      if (!heldGemType[source.getItem().id]) return;
+      let gemID = source.getItem().id;
+      if (!gemID && source.volatiles["gem"] && effect?.effectType === "Move") {
+        gemID = toID(effect.type + "gem");
+      }
+      if (!heldGemType[gemID]) return;
       this.add("-ability", source, "Crown Jewels", "[of] " + source);
-      if (["brn", "par", "psn"].includes(heldGemType[source.getItem().id])) {
-        target.setStatus(heldGemType[source.getItem().id], source, effect, true);
-      } else if (heldGemType[source.getItem().id] === "haze") {
+      if (["brn", "par", "psn"].includes(heldGemType[gemID])) {
+        target.setStatus(heldGemType[gemID], source, effect, true);
+      } else if (heldGemType[gemID] === "haze") {
         for (const pokemon of this.getAllActive()) {
           pokemon.clearBoosts();
         }
         this.add("-clearallboost");
       } else {
-        target.addVolatile(heldGemType[source.getItem().id], source, effect);
+        target.addVolatile(heldGemType[gemID], source, effect);
       }
-      source.takeItem(source);
+      if (source.getItem().id in heldGemType) {
+        source.takeItem(source);
+      }
     },
     flags: {},
     name: "Crown Jewels"
