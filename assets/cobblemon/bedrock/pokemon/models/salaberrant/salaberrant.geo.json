@@ -606,12 +606,11 @@
 					]
 				},
 				{
-					"name": "locator_hand_primary",
+					"name": "locator_hand_secondary",
 					"parent": "hand_right",
 					"pivot": [-19, 22.5, -0.5],
 					"locators": {
-						"physical": [-19, 22.5, -0.5],
-						"hand_primary": [-19, 22.5, -0.5]
+						"hand_secondary": [-19, 22.5, -0.5]
 					}
 				},
 				{
@@ -756,11 +755,12 @@
 					]
 				},
 				{
-					"name": "locator_hand_secondary",
+					"name": "locator_hand_primary",
 					"parent": "hand_left",
 					"pivot": [19, 22.5, -0.5],
 					"locators": {
-						"hand_secondary": [19, 22.5, -0.5]
+						"physical": [19, 22.5, -0.5],
+						"hand_primary": [19, 22.5, -0.5]
 					}
 				},
 				{
