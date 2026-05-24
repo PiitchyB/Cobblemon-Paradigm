@@ -16,14 +16,9 @@
 					"pivot": [0, 0, 0]
 				},
 				{
-					"name": "pokemon",
-					"parent": "roaroot",
-					"pivot": [0, 17, 0]
-				},
-				{
 					"name": "body",
-					"parent": "pokemon",
-					"pivot": [0, 0, 0],
+					"parent": "roaroot",
+					"pivot": [0, 18, 0],
 					"cubes": [
 						{"origin": [-4, 12, -4], "size": [8, 12, 8], "uv": [0, 0]},
 						{"origin": [-3, 23, -3], "size": [6, 3, 6], "uv": [19, 25]},
@@ -223,6 +218,102 @@
 					"cubes": [
 						{"origin": [3, 8, -3], "size": [0, 2, 6], "pivot": [3, 10, 0], "rotation": [0, 0, -25], "uv": [0, 31]}
 					]
+				},
+				{
+					"name": "locator_middle",
+					"parent": "body",
+					"pivot": [0, 18, 0],
+					"locators": {
+						"middle": [0, 18, 0]
+					}
+				},
+				{
+					"name": "locator_target",
+					"parent": "body",
+					"pivot": [0, 18, -5],
+					"locators": {
+						"target": [0, 18, -5]
+					}
+				},
+				{
+					"name": "locator_head",
+					"parent": "body",
+					"pivot": [0, 26, 0],
+					"locators": {
+						"head": [0, 26, 0]
+					}
+				},
+				{
+					"name": "locator_face",
+					"parent": "body",
+					"pivot": [0, 19.5, -4],
+					"locators": {
+						"face": [0, 19.5, -4]
+					}
+				},
+				{
+					"name": "locator_eye",
+					"parent": "body",
+					"pivot": [-1.5, 20.5, -4],
+					"locators": {
+						"eye": [-1.5, 20.5, -4]
+					}
+				},
+				{
+					"name": "locator_jaw_upper",
+					"parent": "body",
+					"pivot": [0, 19, -4],
+					"locators": {
+						"jaw1": [0, 19, -4]
+					}
+				},
+				{
+					"name": "locator_jaw_lower",
+					"parent": "body",
+					"pivot": [0, 16, -4],
+					"locators": {
+						"jaw2": [0, 16, -4]
+					}
+				},
+				{
+					"name": "locator_mouth",
+					"parent": "body",
+					"pivot": [0, 19, -2],
+					"locators": {
+						"mouth": [0, 19, -2]
+					}
+				},
+				{
+					"name": "locator_item_hat",
+					"parent": "body",
+					"pivot": [0, 26, 0],
+					"locators": {
+						"item_hat": [0, 26, 0]
+					}
+				},
+				{
+					"name": "locator_item_face",
+					"parent": "body",
+					"pivot": [0, 20.5, -4],
+					"locators": {
+						"item_face": [0, 20.5, -4]
+					}
+				},
+				{
+					"name": "locator_root",
+					"parent": "roaroot",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"root": [0, 0, 0]
+					}
+				},
+				{
+					"name": "locator_top",
+					"parent": "roaroot",
+					"pivot": [0, 31, 0],
+					"locators": {
+						"top": [0, 31, 0]
+					}
 				}
 			]
 		}
