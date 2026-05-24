@@ -5,10 +5,10 @@
   "pokemon.hydraangea.cry": {
     "sounds": [ "cobblemon:pokemon/hydraangea/hydraangea" ]
   },
-  "pokemon.salaberrant.laugh": {
-    "sounds": [ "cobblemon:pokemon/salaberrant/laugh" ]
-  },
   "pokemon.salaberrant.cry": {
     "sounds": [ "cobblemon:pokemon/salaberrant/salaberrant" ]
+  },
+  "pokemon.salaberrant.laugh": {
+    "sounds": [ "cobblemon:pokemon/salaberrant/laugh" ]
   }
 }

@@ -5,7 +5,7 @@
     "profileTranslation": [-0.1, 0.55, 0],
     "animations": {
         "faint": "q.bedrock_primary('salaberrant', 'faint', q.curve('one'))",
-        "cry": "q.bedrock_stateful('salaberrant', 'cry')",
+        "cry": "q.bedrock_primary('salaberrant', 'cry', q.curve('symmetrical_wide'))",
         "recoil": "q.bedrock_stateful('salaberrant', 'recoil')",
         "physical": "q.bedrock_primary('salaberrant', 'physical', q.curve('symmetrical_wide'))",
         "special": "q.bedrock_primary('salaberrant', 'special', q.curve('symmetrical_wide'))",
