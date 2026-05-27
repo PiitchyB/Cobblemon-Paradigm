@@ -6,9 +6,9 @@
 				"identifier": "geometry.hydraangea",
 				"texture_width": 256,
 				"texture_height": 256,
-				"visible_bounds_width": 5,
-				"visible_bounds_height": 5.5,
-				"visible_bounds_offset": [0, 2.25, 0]
+				"visible_bounds_width": 4,
+				"visible_bounds_height": 9.5,
+				"visible_bounds_offset": [0, 4.25, 0]
 			},
 			"bones": [
 				{
@@ -106,6 +106,14 @@
 					]
 				},
 				{
+					"name": "locator_jaw_upper1",
+					"parent": "head1jaw1",
+					"pivot": [-11, 132, -5],
+					"locators": {
+						"jaw1": [-11, 132, -5]
+					}
+				},
+				{
 					"name": "head1jaw2",
 					"parent": "head1",
 					"pivot": [-11, 123, -5],
@@ -118,6 +126,22 @@
 						{"origin": [-14.5, 131.75, -7.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [62, 37]},
 						{"origin": [-14.5, 131.75, -9.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [62, 35]}
 					]
+				},
+				{
+					"name": "locator_jaw_lower1",
+					"parent": "head1jaw2",
+					"pivot": [-11, 132, -5],
+					"locators": {
+						"jaw2": [-11, 132, -5]
+					}
+				},
+				{
+					"name": "locator_mouth1",
+					"parent": "head1",
+					"pivot": [-11, 123, -5],
+					"locators": {
+						"mouth1": [-11, 123, -5]
+					}
 				},
 				{
 					"name": "flowers1",
@@ -218,6 +242,14 @@
 					]
 				},
 				{
+					"name": "locator_jaw_upper2",
+					"parent": "head2jaw1",
+					"pivot": [11, 132, -5],
+					"locators": {
+						"jaw3": [11, 132, -5]
+					}
+				},
+				{
 					"name": "head2jaw2",
 					"parent": "head2",
 					"pivot": [11, 123, -5],
@@ -230,6 +262,22 @@
 						{"origin": [7.5, 131.75, -7.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [41, 26]},
 						{"origin": [7.5, 131.75, -9.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [41, 24]}
 					]
+				},
+				{
+					"name": "locator_jaw_lower2",
+					"parent": "head2jaw2",
+					"pivot": [11, 132, -5],
+					"locators": {
+						"jaw4": [11, 132, -5]
+					}
+				},
+				{
+					"name": "locator_mouth2",
+					"parent": "head2",
+					"pivot": [11, 123, -5],
+					"locators": {
+						"mouth2": [11, 123, -5]
+					}
 				},
 				{
 					"name": "flowers2",
@@ -330,6 +378,14 @@
 					]
 				},
 				{
+					"name": "locator_jaw_upper3",
+					"parent": "head3jaw1",
+					"pivot": [0, 132, 11],
+					"locators": {
+						"jaw5": [0, 132, 11]
+					}
+				},
+				{
 					"name": "head3jaw2",
 					"parent": "head3",
 					"pivot": [0, 123, 11],
@@ -342,6 +398,30 @@
 						{"origin": [-3.5, 131.75, 8.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [31, 25]},
 						{"origin": [-3.5, 131.75, 6.5], "size": [4, 0, 1], "inflate": 0.01, "uv": [31, 23]}
 					]
+				},
+				{
+					"name": "locator_jaw_lower3",
+					"parent": "head3jaw2",
+					"pivot": [0, 132, 11],
+					"locators": {
+						"jaw6": [0, 132, 11]
+					}
+				},
+				{
+					"name": "locator_head",
+					"parent": "head3",
+					"pivot": [0, 123, 16],
+					"locators": {
+						"head": [0, 123, 16]
+					}
+				},
+				{
+					"name": "locator_mouth3",
+					"parent": "head3",
+					"pivot": [0, 123, 11],
+					"locators": {
+						"mouth3": [0, 123, 11]
+					}
 				},
 				{
 					"name": "flowers3",
@@ -379,6 +459,38 @@
 					"cubes": [
 						{"origin": [-5, -3, 6], "size": [10, 6, 10], "inflate": 0.01, "uv": [0, 23]}
 					]
+				},
+				{
+					"name": "locator_middle",
+					"parent": "body",
+					"pivot": [0, 42, 0],
+					"locators": {
+						"middle": [0, 42, 0]
+					}
+				},
+				{
+					"name": "locator_target",
+					"parent": "body",
+					"pivot": [0, 42, -26],
+					"locators": {
+						"target": [-15, 42, -29]
+					}
+				},
+				{
+					"name": "locator_root",
+					"parent": "hydraangea",
+					"pivot": [0, 0, 0],
+					"locators": {
+						"root": [0, 0, 0]
+					}
+				},
+				{
+					"name": "locator_top",
+					"parent": "hydraangea",
+					"pivot": [0, 69, 0],
+					"locators": {
+						"top": [0, 69, 0]
+					}
 				}
 			]
 		}

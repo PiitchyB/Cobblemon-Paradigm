@@ -981,7 +981,7 @@
 			}
 		},
 		"animation.roaroot.faint": {
-			"animation_length": 4,
+			"animation_length": 2.3333,
 			"bones": {
 				"front_tentacle": {
 					"rotation": {
