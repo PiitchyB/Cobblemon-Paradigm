@@ -19,7 +19,6 @@
       ],
       "isBattle": false,
       "animations": [
-        "q.look('body')",
         "q.bedrock('roaroot', 'ground_idle')"
       ],
       "quirks": [
@@ -43,7 +42,6 @@
       ],
       "isBattle": true,
       "animations": [
-        "q.look('body')",
         "q.bedrock('roaroot', 'ground_idle')"
       ],
       "quirks": [ "q.bedrock_quirk('roaroot', 'blink')" ]

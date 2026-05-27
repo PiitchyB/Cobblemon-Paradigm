@@ -13,10 +13,8 @@
         "FLOAT"
       ],
       "animations": [
-        "q.look('far_right_head')",
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.look('far_left_head')",
         "q.bedrock('dodetrad', 'ground_idle')"
       ],
       "quirks": [
@@ -29,10 +27,8 @@
     "walking": {
       "poseTypes": [ "WALK", "SWIM" ],
       "animations": [
-        "q.look('far_right_head')",
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.look('far_left_head')",
         "q.bedrock('dodetrad', 'ground_walk')"
       ],
       "quirks": [
@@ -53,10 +49,8 @@
       ],
       "isBattle": true,
       "animations": [
-        "q.look('far_right_head')",
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.look('far_left_head')",
         "q.bedrock('dodetrad', 'ground_idle')"
       ],
       "quirks": [
