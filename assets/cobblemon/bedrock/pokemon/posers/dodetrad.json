@@ -15,7 +15,11 @@
       "animations": [
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.bedrock('dodetrad', 'ground_idle')"
+        "q.bedrock('dodetrad', 'ground_idle')",
+        {
+          "condition": "q.is_wearing_hat",
+          "animation": "q.bedrock('dodetrad', 'hat')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('dodetrad', 'blink1')",
@@ -29,7 +33,11 @@
       "animations": [
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.bedrock('dodetrad', 'ground_walk')"
+        "q.bedrock('dodetrad', 'ground_walk')",
+        {
+          "condition": "q.is_wearing_hat",
+          "animation": "q.bedrock('dodetrad', 'hat')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('dodetrad', 'blink1')",
@@ -40,7 +48,15 @@
     },
     "flying": {
       "poseTypes": [ "FLY", "HOVER" ],
-      "animations": [ "q.bedrock('dodetrad', 'air_fly')" ]
+      "animations": [
+        "q.look('middle_right_head')",
+        "q.look('middle_left_head')",
+        "q.bedrock('dodetrad', 'air_fly')",
+        {
+          "condition": "q.is_wearing_hat",
+          "animation": "q.bedrock('dodetrad', 'hat')"
+        }
+      ]
     },
     "battle-standing": {
       "poseTypes": [
@@ -51,7 +67,11 @@
       "animations": [
         "q.look('middle_right_head')",
         "q.look('middle_left_head')",
-        "q.bedrock('dodetrad', 'ground_idle')"
+        "q.bedrock('dodetrad', 'ground_idle')",
+        {
+          "condition": "q.is_wearing_hat",
+          "animation": "q.bedrock('dodetrad', 'hat')"
+        }
       ],
       "quirks": [
         "q.bedrock_quirk('dodetrad', 'blink1')",

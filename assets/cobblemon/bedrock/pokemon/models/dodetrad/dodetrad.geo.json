@@ -464,9 +464,10 @@
 				{
 					"name": "locator_item",
 					"parent": "middle_right_beak",
-					"pivot": [-2, 35.25, -8],
+					"pivot": [-2, 34.75, -7.5],
+					"rotation": [0, 45, 0],
 					"locators": {
-						"item": [-2, 35.25, -8]
+						"item": [-2, 34.75, -7.5]
 					}
 				},
 				{
@@ -601,9 +602,9 @@
 				{
 					"name": "locator_item_hat",
 					"parent": "middle_right_head",
-					"pivot": [-2, 39, -1.5],
+					"pivot": [-2, 40.25, -1.5],
 					"locators": {
-						"item_hat": [-2, 39, -1.5]
+						"item_hat": [-2, 40.25, -1.5]
 					}
 				},
 				{

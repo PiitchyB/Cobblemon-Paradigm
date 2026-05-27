@@ -798,6 +798,14 @@
 					}
 				}
 			}
+		},
+		"animation.dodetrad.hat": {
+			"loop": true,
+			"bones": {
+				"locator_item_hat": {
+					"scale": 0.7
+				}
+			}
 		}
 	}
 }
