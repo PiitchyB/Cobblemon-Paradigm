@@ -15,6 +15,18 @@
         "texture": "cobblemon:textures/pokemon/victreebel_hexonian/victreebel_hexonian_shiny.png",
         "layers": [
         ]
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/victreebel_hexonian/victreebel_hexonian_alpha.png",
+            "emissive": true
+          }
+        ]
       }
     ]
   }

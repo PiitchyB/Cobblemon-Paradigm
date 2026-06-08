@@ -29,6 +29,18 @@
         ]
       },
       {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/salaberrant/salaberrant_alpha.png",
+            "emissive": true
+          }
+        ]
+      },
+      {
         "aspects": [ "gems-normal" ],
         "layers": [
           {

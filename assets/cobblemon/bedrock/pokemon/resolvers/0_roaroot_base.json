@@ -15,6 +15,18 @@
         "texture": "cobblemon:textures/pokemon/roaroot/roaroot_shiny.png",
         "layers": [
         ]
+      },
+      {
+        "aspects": [
+          "alpha_eyes"
+        ],
+        "layers": [
+          {
+            "name": "alpha_eyes",
+            "texture": "cobblemon:textures/pokemon/roaroot/roaroot_alpha.png",
+            "emissive": true
+          }
+        ]
       }
     ]
   }
