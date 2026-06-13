@@ -335,7 +335,7 @@
 					]
 				},
 				{
-					"name": "feeler_righ3_end",
+					"name": "feeler_right3_end",
 					"parent": "feeler_right3",
 					"pivot": [-17, 0, 23],
 					"cubes": [
