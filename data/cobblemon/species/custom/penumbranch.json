@@ -33,14 +33,14 @@
                 "canBreatheUnderwater": true,
                 "canWalkOnLava": true,
                 "canBreatheUnderLava": true,
-                "canSwimInLava": true
+                "canSwimInLava": true,
+                "swimSpeed": 0.1
             }
         }
     },
     "catchRate": 75,
     "maleRatio": 0.5,
     "shoulderMountable": false,
-    
     "baseExperienceYield": 275,
     "experienceGroup": "medium_fast",
     "eggCycles": 20,
@@ -185,10 +185,10 @@
         "cobblemon.species.penumbranch.desc2"
     ],
     "preEvolution": "magcargo",
-    "baseScale": 0.8,
+    "baseScale": 1.5,
     "hitbox": {
-        "width": 4.0,
-        "height": 1.0,
+        "width": 2.8,
+        "height": 1.4,
         "fixed": false
     },
     "baseFriendship": 50,
@@ -200,6 +200,10 @@
         "special_defence": 0,
         "speed": 0
     },
-    "height": 10,
-    "weight": 830
+    "height": 60,
+    "weight": 830,
+    "lightingData": {
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
+    }
 }
