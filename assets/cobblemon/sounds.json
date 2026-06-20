@@ -10,5 +10,11 @@
   },
   "pokemon.salaberrant.laugh": {
     "sounds": [ "cobblemon:pokemon/salaberrant/laugh" ]
+  },
+  "pokemon.penumbranch.cry": {
+    "sounds": [ "cobblemon:pokemon/penumbranch/penumbranch" ]
+  },
+  "pokemon.penumbranch.short": {
+    "sounds": [ "cobblemon:pokemon/penumbranch/short" ]
   }
 }

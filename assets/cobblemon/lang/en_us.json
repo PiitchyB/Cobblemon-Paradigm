@@ -33,6 +33,10 @@
     "cobblemon.ui.pokedex.info.form.victreebel-hexon": "Hexonian",
     "cobblemon.species.victreebel-hexon.desc1": "The environment of the Hexon region's Dark Hex has had a dramatic effect on the invasive Victreebel.",
     "cobblemon.species.victreebel-hexon.desc2": "The seeds of Hexonian Victreebel are so potent, any passerby that even catches a small whiff of them will begin to hallucinate.",
+    "cobblemon.ui.pokedex.info.form.magikarp": "",
+    "cobblemon.ui.pokedex.info.form.magikarp-hexon": "Hexonian",
+    "cobblemon.species.magikarp-hexon.desc1": "Having been heavily exposed to the unique environment of the Fairy Hex, Hexonian Magikarp has undergone a transformation that embodies pure sugar.",
+    "cobblemon.species.magikarp-hexon.desc2": "Unsuspecting Hexonian Magikarp, tasting extremely sweet and consisting of only one mass, are often caught and eaten on the spot by fishermen looking for a treat.",
 
     "cobblemon.move.slagray": "Slag Ray",
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",

@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:magikarp",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [ "hexonian" ],
+            "poser": "cobblemon:magikarp",
+            "model": "cobblemon:magikarp_male.geo",
+            "texture": "cobblemon:textures/pokemon/magikarp_hexonian/magikarp_hexonian.png",
+            "layers": []
+        },
+        {
+            "aspects": [ "shiny", "hexonian" ],
+            "texture": "cobblemon:textures/pokemon/magikarp_hexonian/magikarp_hexonian_shiny.png"
+        }
+    ]
+}
