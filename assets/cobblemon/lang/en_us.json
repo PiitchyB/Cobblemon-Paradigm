@@ -37,6 +37,9 @@
     "cobblemon.ui.pokedex.info.form.magikarp-hexon": "Hexonian",
     "cobblemon.species.magikarp-hexon.desc1": "Having been heavily exposed to the unique environment of the Fairy Hex, Hexonian Magikarp has undergone a transformation that embodies pure sugar.",
     "cobblemon.species.magikarp-hexon.desc2": "Unsuspecting Hexonian Magikarp, tasting extremely sweet and consisting of only one mass, are often caught and eaten on the spot by fishermen looking for a treat.",
+    "cobblemon.ui.pokedex.info.form.gyarados-hexon": "Hexonian",
+    "cobblemon.species.gyarados-hexon.desc1": "Hexonian Gyarados' temperament is far more dopey than its Kanto counterpart, causing it to be far less aggressive.",
+    "cobblemon.species.gyarados-hexon.desc2": "Its behavior being more docile has seemingly the reverse effect on its lethality, as Hexonian Gyarados often suffocates its trainers accidentally.",
 
     "cobblemon.move.slagray": "Slag Ray",
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
@@ -46,6 +49,8 @@
     "cobblemon.move.atomicdoover.desc": "The user reconstructs their very being down to the atomic level in order to optimize it for offense, drastically raising Special Attack and Speed, but lowering Defense and Special Defense just as much.",
     "cobblemon.move.ficklebeak": "Fickle Beak",
     "cobblemon.move.ficklebeak.desc": "The user strikes the target with all four of its beaks, with each hit having a 30% chance to be double in power.",
+    "cobblemon.move.sugarrush": "Sugar Rush",
+    "cobblemon.move.sugarrush.desc": "The user consumes their currently held berry before slamming into the opponent in a sugar-infused craze.",
 
     "cobblemon.ability.crownjewels": "Crown Jewels",
     "cobblemon.ability.crownjewels.desc": "Inflicts a status condition based on the held type gem when the opponent's stats are lowered. This consumes the gem.",

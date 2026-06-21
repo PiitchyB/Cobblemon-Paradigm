@@ -1,0 +1,32 @@
+{
+    "species": "cobblemon:gyarados",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [ "hexonian" ],
+            "poser": "cobblemon:gyarados",
+            "model": "cobblemon:gyarados_male.geo",
+            "texture": "cobblemon:textures/pokemon/gyarados_hexonian/gyarados_hexonian_whiskers.png",
+            "layers": [
+                {
+                    "name": "base",
+                    "texture": "cobblemon:textures/pokemon/gyarados_hexonian/gyarados_hexonian.png",
+                    "translucent": true,
+                    "translucent_cull": true
+                }
+            ]
+        },
+        {
+            "aspects": [ "shiny", "hexonian" ],
+            "texture": "cobblemon:textures/pokemon/gyarados_hexonian/gyarados_hexonian_whiskers_shiny.png",
+            "layers": [
+                {
+                    "name": "base",
+                    "texture": "cobblemon:textures/pokemon/gyarados_hexonian/gyarados_hexonian_shiny.png",
+                    "translucent": true,
+                    "translucent_cull": true
+                }
+            ]
+        }
+    ]
+}

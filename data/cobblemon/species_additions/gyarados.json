@@ -1,0 +1,63 @@
+{
+    "implemented": true,
+    "target": "cobblemon:gyarados",
+    "features": ["hexonian"],
+    "forms": [
+        {
+            "name": "Hexon",
+            "primaryType": "fairy",
+            "secondaryType": "water",
+            "labels": [
+                "gen1",
+                "hexonian"
+            ],
+            "aspects": ["hexonian"],
+            "abilities": ["gooey", "h:sapsipper"],
+            "baseStats": {
+                "hp": 115,
+                "attack": 100,
+                "defence": 115,
+                "special_attack": 45,
+                "special_defence": 135,
+                "speed": 30
+            },
+            "evYield": {
+                "hp": 0,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 2,
+                "speed": 0
+            },
+            "pokedex": [
+                "cobblemon.species.gyarados-hexon.desc1",
+                "cobblemon.species.gyarados-hexon.desc2"
+            ],
+            "moves": [
+
+            ],
+            "eggGroups": [
+                "dragon",
+                "water_2"
+            ],
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:sugar",
+                        "percentage": 100
+                    },
+                    {
+                        "item": "minecraft:red_dye",
+                        "percentage": 50
+                    },
+                    {
+                        "item": "minecraft:orange_dye",
+                        "percentage": 50
+                    }
+                ]
+            },
+            "preEvolution": "magikarp hexonian"
+        }
+    ]
+}

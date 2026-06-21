@@ -54,7 +54,29 @@
                         "percentage": 70
                     }
                 ]
-            }
+            },
+            "evolutions": [
+                {
+                    "id": "magikarp_gyaradoshexon",
+                    "variant": "level_up",
+                    "result": "gyarados hexonian",
+                    "consumeHeldItem": true,
+                    "learnableMoves": [
+                        "sugarrush"
+                    ],
+                    "requirements": [
+                        {
+                            "variant": "level",
+                            "minLevel": 30
+                        },
+                        {
+                            "variant": "held_item",
+                            "itemCondition": "minecraft:sugar"
+                        }
+                    ],
+                    "permanent": true
+                }
+            ]
         }
     ]
 }
