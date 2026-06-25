@@ -1,6 +1,5 @@
 {
     "target": "cobblemon:magcargo",
-    "preEvolution": "slugma",
     "evolutions": [
       {
         "id": "magcargo_penumbranch",

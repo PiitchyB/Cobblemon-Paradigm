@@ -1,0 +1,14 @@
+{
+    "type": "choice",
+    "keys": [
+        "soda_flavor"
+    ],
+    "default": "none",
+    "choices": [
+        "rootbeer",
+        "lime",
+        "grape"
+    ],
+    "isAspect": true,
+    "aspectFormat": "{{choice}}"
+}

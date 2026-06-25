@@ -1,23 +1,28 @@
 {
     "implemented": true,
-    "name": "hydraangea",
     "nationalPokedexNumber": 9054,
-    "labels": [
-      "custom",
-      "mega"
-    ],
-    "aspects": [
-      "flowers-color"
-    ],
-    "pokedex": [
-      "cobblemon.species.hydraangea.desc1",
-      "cobblemon.species.hydraangea.desc2"
-    ],
-    "height": 28,
-    "weight": 500,
-    "shoulderMountable": false,
+    "name": "Hydraangea",
     "primaryType": "grass",
     "secondaryType": "dragon",
+    "maleRatio": 0.5,
+    "height": 28,
+    "weight": 500,
+    "pokedex": [
+        "cobblemon.species.hydraangea.desc1",
+        "cobblemon.species.hydraangea.desc2"
+    ],
+    "labels": [
+        "custom"
+    ],
+    "aspects": [],
+    "abilities": [
+        "serpentsynergy",
+        "h:technician"
+    ],
+    "eggGroups": [
+        "grass",
+        "dragon"
+    ],
     "baseStats": {
       "hp": 95,
       "attack": 70,
@@ -26,18 +31,63 @@
       "special_defence": 90,
       "speed": 95
     },
-    "catchRate": 25,
-    "maleRatio": 0.5,
+    "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 3,
+        "special_defence": 0,
+        "speed": 0
+    },
     "baseExperienceYield": 275,
     "experienceGroup": "medium_slow",
+    "catchRate": 200,
     "eggCycles": 25,
-    "eggGroups": [
-      "grass",
-      "dragon"
-    ],
     "baseFriendship": 50,
-    "evYield": {
-      "special_attack": 3
+    "baseScale": 0.7,
+    "hitbox": {
+        "height": 4.2,
+        "fixed": false,
+        "width": 2.5
+    },
+    "behaviour": {
+        "combat": {
+            "willDefendOwner": true,
+            "willDefendSelf": true,
+            "willFlee": false
+        },
+        "herd": {
+            "maxSize": "7"
+        },
+        "moving": {
+            "fly": {
+                "canFly": false
+            },
+            "swim": {
+                "swimSpeed": 0.2,
+                "canSwimInWater": false,
+                "canBreatheUnderwater": false,
+                "avoidsWater": true
+            }
+        },
+        "resting": {
+            "canSleep": true,
+            "drowsyChance": 0.0333,
+            "rouseChance": 0.0042
+        }
+    },
+    "drops": {
+        "amount": 2,
+        "entries": [
+            {
+                "item": "cobblemon:miracle_seed",
+                "percentage": 5.0
+            },
+            {
+                "item": "cobblemon:starf_berry",
+                "percentage": 5.0
+            }
+        ]
     },
     "moves": [
       "1:bind",
@@ -140,40 +190,67 @@
       "tutor:throatchop",
       "tutor:worryseed"
     ],
-    "abilities": [
-      "serpentsynergy",
-      "h:technician"
-    ],
-    "baseScale": 0.7,
-    "hitbox": {
-      "width": 2.5,
-      "height": 4.2,
-      "fixed": false
-    },
-    "drops": {
-    "amount": 2,
-      "entries": [
+    "preEvolution": "carnivine",
+    "evolutions": [],
+    "forms": [
         {
-          "item": "cobblemon:miracle_seed",
-          "percentage": 5.0
-        },
-        {
-          "item": "cobblemon:starf_berry",
-          "percentage": 5.0
+            "name": "Mega",
+            "primaryType": "grass",
+            "secondaryType": "dragon",
+            "maleRatio": 0.5,
+            "height": 28,
+            "weight": 500,
+            "pokedex": [
+                "cobblemon.species.hydraangea-mega.desc"
+            ],
+            "labels": [
+                "custom",
+                "mega"
+            ],
+            "aspects": [
+                "mega"
+            ],
+            "abilities": [
+                "serpentsynergy",
+                "h:serpentsynergy"
+            ],
+            "baseStats": {
+            "hp": 95,
+            "attack": 70,
+            "defence": 85,
+            "special_attack": 160,
+            "special_defence": 100,
+            "speed": 130
+            },
+            "baseExperienceYield": 325,
+            "behaviour": {
+                "combat": {
+                    "willDefendOwner": true,
+                    "willDefendSelf": true,
+                    "willFlee": false
+                },
+                "herd": {
+                    "maxSize": "8"
+                },
+                "moving": {
+                    "fly": {
+                        "canFly": true
+                    },
+                    "swim": {
+                        "swimSpeed": 0.2,
+                        "canSwimInWater": false,
+                        "canBreatheUnderwater": false,
+                        "avoidsWater": true
+                    }
+                },
+                "resting": {
+                    "drowsyChance": 0.0333,
+                    "rouseChance": 0.0042
+                }
+            },
+            "battleOnly": true,
+            "dynamaxBlocked": true
         }
-      ]
-    },
-    "behaviour": {
-      "moving": {
-      "canLook": false,
-        "fly": {
-          "canFly": false
-        },          
-        "swim": {
-          "swimSpeed": 0.2,
-          "canSwimInWater": false,
-          "canBreatheUnderwater": false
-        }
-      }
-    }
-  }
+    ]
+    
+}
