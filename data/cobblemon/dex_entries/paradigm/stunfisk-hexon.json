@@ -1,0 +1,15 @@
+{
+  "id": "cobblemon:stunfisk-hexon",
+  "speciesId": "cobblemon:stunfisk",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Hexon",
+      "unlockForms": [
+        "Hexon"
+      ]
+    }
+  ],
+  "variations": []
+}

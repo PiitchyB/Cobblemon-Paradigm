@@ -40,6 +40,8 @@
     "cobblemon.ui.pokedex.info.form.gyarados-hexon": "Hexonian",
     "cobblemon.species.gyarados-hexon.desc1": "Hexonian Gyarados' temperament is far more dopey than its Kanto counterpart, causing it to be far less aggressive.",
     "cobblemon.species.gyarados-hexon.desc2": "Its behavior being more docile has seemingly the reverse effect on its lethality, as Hexonian Gyarados often suffocates its trainers accidentally.",
+    "cobblemon.species.stunfisk-hexon.desc1": "Its constant flipping gives Hexonian Stunfisk the unique ability to view its surroundings from all angles, although this ends up in dizziness.",
+    "cobblemon.species.stunfisk-hexon.desc2": "Hexonian Stunfisk is the product of the already flat Stunfisk adapting to the environment of Hexon's Fairy Hex, turning it into a delicacy almost too beautiful to be eaten.",
 
     "cobblemon.move.slagray": "Slag Ray",
     "cobblemon.move.slagray.desc": "The user blasts the target with a beam of embers, using the Attack stat of the user. This also lowers the target's Defense stat.",
@@ -62,7 +64,11 @@
     "cobblemon.ability.moltscale.desc": "Grants the Pokémon's lower defensive stat half of its current higher defensive stat as a boost.",
     "cobblemon.ability.speedblitz": "Speed Blitz",
     "cobblemon.ability.speedblitz.desc": "The faster the Pokémon is compared to its opponent, the stronger its moves become and the more damage it takes.",
+    "cobblemon.ability.decadent": "Decadent",
+    "cobblemon.ability.decadent.desc": "When the Pokémon is hit by a contact move, it heals the attacker, but also stops them from fleeing for the rest of battle.",
 
     "cobblemon.ui.pokedex.region.paradigm": "Hexon",
-    "cobblemon.pokedex.variation.flowers": "Flowers"
+    "cobblemon.pokedex.variation.flowers": "Flowers",
+    
+    "cobblemon.battle.activate.decadent": "The attacker was healed by %1$s's Decadent!"
 }

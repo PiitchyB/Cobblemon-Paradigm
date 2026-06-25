@@ -1,0 +1,117 @@
+{
+    "implemented": true,
+    "target": "cobblemon:stunfisk",
+    "features": ["hexonian"],
+    "forms": [
+        {
+            "name": "Hexon",
+            "primaryType": "fairy",
+            "secondaryType": "normal",
+            "labels": [
+                "custom",
+                "hexonian"
+            ],
+            "aspects": ["hexonian"],
+            "abilities": ["decadent", "fluffy", "h:regenerator"],
+            "baseStats": {
+                "hp": 135,
+                "attack": 55,
+                "defence": 99,
+                "special_attack": 55,
+                "special_defence": 99,
+                "speed": 28
+            },
+            "evYield": {
+                "hp": 2,
+                "attack": 0,
+                "defence": 0,
+                "special_attack": 0,
+                "special_defence": 0,
+                "speed": 0
+            },
+            "pokedex": [
+                "cobblemon.species.stunfisk-hexon.desc1",
+                "cobblemon.species.stunfisk-hexon.desc2"
+            ],
+            "moves": [
+                "1:tackle",
+                "1:bide",
+                "1:disarmingvoice",
+                "1:growl",
+                "1:tailwhip",
+                "5:endure",
+                "10:visegrip",
+                "15:revenge",
+                "20:charm",
+                "25:quickattack",
+                "30:mistyterrain",
+                "35:painsplit",
+                "40:foulplay",
+                "45:retaliate",
+                "50:flail",
+                "55:playrough",
+                "60:recover",
+                "65:thrash",
+                "egg:sweetkiss",
+                "egg:yawn",
+                "egg:stuffcheeks",
+                "egg:stockpile",
+                "egg:swallow",
+                "egg:spitup",
+                "egg:willowisp",
+                "egg:batonpass",
+                "tm:bounce",
+                "tm:endeavor",
+                "tm:endure",
+                "tm:facade",
+                "tm:foulplay",
+                "tm:painsplit",
+                "tm:protect",
+                "tm:raindance",
+                "tm:rest",
+                "tm:revenge",
+                "tm:scald",
+                "tm:sleeptalk",
+                "tm:sludgebomb",
+                "tm:sludgewave",
+                "tm:stealthrock",
+                "tm:substitute",
+                "tm:suckerpunch",
+                "tm:terablast",
+                "tm:terrainpulse",
+                "tm:uproar",
+                "tm:gyroball",
+                "tm:reflect",
+                "tm:lightscreen",
+                "tutor:bounce",
+                "tutor:foulplay",
+                "tutor:irondefense",
+                "tutor:painsplit",
+                "tutor:rest",
+                "tutor:sleeptalk",
+                "tutor:sludgebomb",
+                "tutor:stealthrock",
+                "tutor:suckerpunch",
+                "tutor:terrainpulse",
+                "tutor:uproar"
+            ],
+            "eggGroups": [
+                "amorphous",
+                "water_1"
+            ],
+            "drops": {
+                "amount": 3,
+                "entries": [
+                    {
+                        "item": "minecraft:sugar",
+                        "percentage": 70
+                    },
+                    {
+                        "item": "minecraft:wheat",
+                        "percentage": 70
+                    }
+                ]
+            }
+        }
+    ]
+}

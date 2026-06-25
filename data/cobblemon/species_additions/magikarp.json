@@ -8,7 +8,7 @@
             "primaryType": "fairy",
             "secondaryType": "water",
             "labels": [
-                "gen1",
+                "custom",
                 "hexonian"
             ],
             "aspects": ["hexonian"],

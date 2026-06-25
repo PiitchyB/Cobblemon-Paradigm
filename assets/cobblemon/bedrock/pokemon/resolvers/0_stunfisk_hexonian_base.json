@@ -1,0 +1,17 @@
+{
+    "species": "cobblemon:stunfisk",
+    "order": 0,
+    "variations": [
+        {
+            "aspects": [ "hexonian" ],
+            "poser": "cobblemon:stunfisk",
+            "model": "cobblemon:stunfisk_hexonian.geo",
+            "texture": "cobblemon:textures/pokemon/stunfisk_hexonian/stunfisk_hexonian.png",
+            "layers": []
+        },
+        {
+            "aspects": [ "shiny", "hexonian" ],
+            "texture": "cobblemon:textures/pokemon/stunfisk_hexonian/stunfisk_hexonian_shiny.png"
+        }
+    ]
+}
