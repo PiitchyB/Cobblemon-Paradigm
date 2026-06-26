@@ -171,19 +171,19 @@
 				{
 					"name": "locator_item_hat",
 					"parent": "head_angle",
-					"pivot": [0, 15.75, -19.75],
+					"pivot": [0, 17.1, -21.55],
 					"rotation": [-5, 0, 0],
 					"locators": {
-						"item_hat": [0, 15.75, -19.75]
+						"item_hat": [0, 17.1, -21.55]
 					}
 				},
 				{
 					"name": "locator_item_face",
 					"parent": "head_angle",
-					"pivot": [0, 14.75, -26],
-					"rotation": [15, 0, 0],
+					"pivot": [0, 15.65, -26],
+					"rotation": [2.5, 0, 0],
 					"locators": {
-						"item_face": [0, 14.75, -26.18]
+						"item_face": [0, 15.65, -26]
 					}
 				},
 				{

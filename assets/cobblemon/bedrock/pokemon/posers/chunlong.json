@@ -21,30 +21,14 @@
       "animations": [
         "q.look('abdomen', -0.5, -0.5)",
         "q.look('head')",
-        "q.bedrock('chunlong', 'ground_idle')",
-        {
-            "condition": "q.is_wearing_hat",
-            "animation": "q.bedrock('chunlong', 'hat')"
-        },
-        {
-            "condition": "q.is_wearing_face",
-            "animation": "q.bedrock('chunlong', 'face')"
-        }
+        "q.bedrock('chunlong', 'ground_idle')"
       ],
       "quirks": [ "q.bedrock_quirk('chunlong', 'blink')",
     "q.bedrock_quirk('chunlong', 'idle_quirk')" ]
     },
     "walking": {
       "poseTypes": [ "WALK", "FLY" ],
-      "animations": [ "q.bedrock('chunlong', 'ground_walk')",
-        {
-            "condition": "q.is_wearing_hat",
-            "animation": "q.bedrock('chunlong', 'hat')"
-        },
-        {
-            "condition": "q.is_wearing_face",
-            "animation": "q.bedrock('chunlong', 'face')"
-        }
+      "animations": [ "q.bedrock('chunlong', 'ground_walk')"
       ],
       "quirks": [ "q.bedrock_quirk('chunlong', 'blink')",
     "q.bedrock_quirk('chunlong', 'idle_quirk')" ]
@@ -60,15 +44,7 @@
         "HOVER"
       ],
       "isBattle": true,
-      "animations": [ "q.bedrock('chunlong', 'ground_idle')",
-        {
-            "condition": "q.is_wearing_hat",
-            "animation": "q.bedrock('chunlong', 'hat')"
-        },
-        {
-            "condition": "q.is_wearing_face",
-            "animation": "q.bedrock('chunlong', 'face')"
-        }
+      "animations": [ "q.bedrock('chunlong', 'ground_idle')"
       ],
       "quirks": [ "q.bedrock_quirk('chunlong', 'blink')" ]
     }

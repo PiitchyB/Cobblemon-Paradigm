@@ -19,12 +19,8 @@
                 "q.look('head_ai')",
                 "q.bedrock('salaberrant', 'battle_idle')",
                 {
-                    "condition": "q.is_wearing_hat",
-                    "animation": "q.bedrock('salaberrant', 'hat')"
-                },
-                {
-                    "condition": "q.is_wearing_face",
-                    "animation": "q.bedrock('salaberrant', 'face')"
+                    "condition": "q.is_holding_item",
+                    "animation": "q.bedrock('salaberrant', 'hold_item')"
                 }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
@@ -40,14 +36,6 @@
                 {
                     "condition": "q.is_holding_item",
                     "animation": "q.bedrock('salaberrant', 'hold_item')"
-                },
-                {
-                    "condition": "q.is_wearing_hat",
-                    "animation": "q.bedrock('salaberrant', 'hat')"
-                },
-                {
-                    "condition": "q.is_wearing_face",
-                    "animation": "q.bedrock('salaberrant', 'face')"
                 }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
@@ -59,14 +47,6 @@
                 {
                     "condition": "q.is_holding_item",
                     "animation": "q.bedrock('salaberrant', 'hold_item')"
-                },
-                {
-                    "condition": "q.is_wearing_hat",
-                    "animation": "q.bedrock('salaberrant', 'hat')"
-                },
-                {
-                    "condition": "q.is_wearing_face",
-                    "animation": "q.bedrock('salaberrant', 'face')"
                 }
             ],
             "quirks": ["q.bedrock_quirk('salaberrant', 'blink')"]
@@ -78,14 +58,6 @@
                 {
                     "condition": "q.is_holding_item",
                     "animation": "q.bedrock('salaberrant', 'hold_item')"
-                },
-                {
-                    "condition": "q.is_wearing_hat",
-                    "animation": "q.bedrock('salaberrant', 'hat')"
-                },
-                {
-                    "condition": "q.is_wearing_face",
-                    "animation": "q.bedrock('salaberrant', 'face')"
                 }
             ]
         }

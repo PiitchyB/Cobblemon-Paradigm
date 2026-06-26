@@ -588,6 +588,12 @@
 				"locator_middle": {
 					"position": [0, -6, 0]
 				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
+				},
 				"head_correction": {
 					"rotation": [-85, 0, 0]
 				},
@@ -1282,6 +1288,12 @@
 				},
 				"locator_head": {
 					"scale": 0.5
+				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
 				},
 				"head_correction": {
 					"rotation": [-17.5, 0, 0]
@@ -3129,6 +3141,12 @@
 				},
 				"locator_middle": {
 					"position": [0, -13, 0]
+				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
 				}
 			}
 		},
@@ -3386,6 +3404,12 @@
 				},
 				"locator_top": {
 					"position": [0, -3, 0]
+				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
 				}
 			}
 		},
@@ -5558,6 +5582,12 @@
 				"locator_head": {
 					"scale": 0.5
 				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
+				},
 				"head_correction": {
 					"rotation": [-17.5, 0, 0]
 				},
@@ -6991,6 +7021,12 @@
 				"locator_middle": {
 					"position": [0, -6, 0]
 				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
+				},
 				"head_correction": {
 					"rotation": [-85, 0, 0]
 				},
@@ -8416,6 +8452,12 @@
 						"2.0": [0.5, 0.5, 0.5]
 					}
 				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
+				},
 				"head_correction": {
 					"rotation": {
 						"0.0": [-17.5, 0, 0],
@@ -9673,6 +9715,12 @@
 						"3.0": [0.5, 0.5, 0.5]
 					}
 				},
+				"locator_item_face": {
+					"scale": 0.57
+				},
+				"locator_item_hat": {
+					"scale": 0.57
+				},
 				"head_correction": {
 					"rotation": {
 						"0.0": [-17.5, 0, 0],
@@ -9733,22 +9781,6 @@
 				},
 				"locator_item": {
 					"scale": 0.65
-				}
-			}
-		},
-		"animation.salaberrant.hat": {
-			"loop": true,
-			"bones": {
-				"locator_item_hat": {
-					"scale": 0.57
-				}
-			}
-		},
-		"animation.salaberrant.face": {
-			"loop": true,
-			"bones": {
-				"locator_item_face": {
-					"scale": 0.57
 				}
 			}
 		}

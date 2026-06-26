@@ -84,6 +84,9 @@
 				},
 				"body": {
 					"position": [0, "math.sin(query.anim_time * 180 - 15) * -0.5", 0]
+				},
+				"locator_item_face": {
+					"scale": 0.9
 				}
 			}
 		},
@@ -156,6 +159,9 @@
 				},
 				"wing_three_left": {
 					"rotation": [30, "-math.clamp(math.sin(q.anim_time*90*2*30)*12.5,-7.5,7.5)", -10]
+				},
+				"locator_item_face": {
+					"scale": 0.9
 				}
 			}
 		},
@@ -734,6 +740,9 @@
 							"lerp_mode": "catmullrom"
 						}
 					}
+				},
+				"locator_item_face": {
+					"scale": 0.9
 				}
 			}
 		},
@@ -839,6 +848,9 @@
 				},
 				"horn_left_three": {
 					"rotation": [-12.5, 0, 0]
+				},
+				"locator_item_face": {
+					"scale": 0.9
 				}
 			}
 		},
@@ -988,22 +1000,6 @@
 						},
 						"1.75": [0, 0, 0]
 					}
-				}
-			}
-		},
-		"animation.chunlong.hat": {
-			"loop": true,
-			"bones": {
-				"locator_item_hat": {
-					"rotation": [-25, 0, 0]
-				}
-			}
-		},
-		"animation.chunlong.face": {
-			"loop": true,
-			"bones": {
-				"locator_item_face": {
-					"scale": 0.9
 				}
 			}
 		},
