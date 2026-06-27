@@ -19,8 +19,16 @@
         "maxSize": "4",
         "toleratedLeaders": [
           {
-            "pokemon": "chunlong",
+            "pokemon": "surskit",
             "tier": 1
+          },
+          {
+            "pokemon": "masquerain",
+            "tier": 2
+          },
+          {
+            "pokemon": "chunlong",
+            "tier": 3
           }
         ]
       }

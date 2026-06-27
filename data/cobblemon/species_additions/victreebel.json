@@ -7,7 +7,7 @@
       "name": "Hexon",
       "primaryType": "dark",
       "secondaryType": "psychic",
-      "labels": ["custom", "hexonian"],
+      "labels": ["custom"],
       "aspects": ["hexonian"],
       "abilities": ["aftermath", "h:prankster"],
       "baseStats": {
