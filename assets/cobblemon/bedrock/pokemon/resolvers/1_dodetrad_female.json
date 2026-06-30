@@ -1,0 +1,10 @@
+{
+    "species": "cobblemon:dodetrad",
+    "order": 1,
+    "variations": [
+        {
+            "aspects": [ "female" ],
+            "model": "cobblemon:dodetrad_female.geo"
+        }
+    ]
+}

@@ -5,7 +5,7 @@
       {
         "aspects": [],
         "poser": "cobblemon:dodetrad",
-        "model": "cobblemon:dodetrad.geo",
+        "model": "cobblemon:dodetrad_male.geo",
         "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad.png",
         "layers": [
         ]

@@ -7,7 +7,8 @@
             "id": "hydraangea-1",
             "pokemon": "hydraangea",
             "presets": [
-                "natural"
+                "natural",
+                "foliage"
             ],
             "type": "pokemon",
             "spawnablePositionType": "grounded",
