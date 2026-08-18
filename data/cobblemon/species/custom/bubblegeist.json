@@ -15,7 +15,8 @@
         "rootbeer"
     ],
     "abilities": [
-
+        "clearbody",
+        "h:waterabsorb"
     ],
     "eggGroups": [
         "mineral",
@@ -110,6 +111,10 @@
             "pokedex": ["cobblemon.species.bubblegeist-lime.desc"],
             "labels": ["custom"],
             "aspects": ["lime"],
+            "abilities": [
+                "speedboost",
+                "h:dryskin"
+            ],
             "battleOnly": false
         },
         {
@@ -122,6 +127,10 @@
             "pokedex": ["cobblemon.species.bubblegeist-grape.desc"],
             "labels": ["custom"],
             "aspects": ["grape"],
+            "abilities": [
+                "friendguard",
+                "h:stormdrain"
+            ],
             "battleOnly": false
         }
     ]

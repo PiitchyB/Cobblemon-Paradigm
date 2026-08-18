@@ -15,7 +15,8 @@
         "rootbeer"
     ],
     "abilities": [
-
+        "insomnia",
+        "h:damp"
     ],
     "eggGroups": [
         "mineral",
@@ -107,7 +108,7 @@
 
             ],
             "requirements": [],
-            "requiredContext": ""
+            "requiredContext": "minecraft:glass_bottle"
         }
     ],
     "forms": [

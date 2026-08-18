@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "hexoniangyarados-1",
-            "pokemon": "gyarados",
+            "pokemon": "gyarados hexonian",
             "presets": [
                 "water"
             ],

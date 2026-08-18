@@ -5,7 +5,7 @@
     "spawns": [
         {
             "id": "hexonianmagikarp-1",
-            "pokemon": "magikarp",
+            "pokemon": "magikarp hexonian",
             "presets": [
                 "water"
             ],
