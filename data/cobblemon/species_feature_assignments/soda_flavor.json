@@ -1,4 +1,9 @@
 {
-  "pokemon": ["sinisuds", "bubblegeist"],
-  "features": ["soda_flavor"]
+  "pokemon": [
+    "sinisuds",
+    "bubblegeist"
+  ],
+  "features": [
+    "soda_flavor"
+  ]
 }

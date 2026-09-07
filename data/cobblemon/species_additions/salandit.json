@@ -1,25 +1,25 @@
 {
-    "target": "cobblemon:salandit",
-    "evolutions": [
+  "target": "cobblemon:salandit",
+  "evolutions": [
+    {
+      "id": "salandit_salaberrant",
+      "variant": "level_up",
+      "result": "salaberrant",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "suckerpunch",
+        "slagray"
+      ],
+      "requirements": [
         {
-          "id": "salandit_salaberrant",
-          "variant": "level_up",
-          "result": "salaberrant",
-          "consumeHeldItem": false,
-          "learnableMoves": [
-            "suckerpunch",
-            "slagray"
-          ],
-          "requirements": [
-            {
-              "variant": "level",
-              "minLevel": "33"
-            },
-            {
-              "variant": "properties",
-              "target": "gender=male"
-            }
-          ]
+          "variant": "level",
+          "minLevel": "33"
+        },
+        {
+          "variant": "properties",
+          "target": "gender=male"
         }
       ]
+    }
+  ]
 }

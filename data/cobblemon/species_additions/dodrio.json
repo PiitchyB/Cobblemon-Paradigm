@@ -1,20 +1,20 @@
 {
-    "target": "cobblemon:dodrio",
-	"evolutions": [
+  "target": "cobblemon:dodrio",
+  "evolutions": [
     {
-        "id": "dodrio_dodetrad",
-        "variant": "level_up",
-        "result": "dodetrad",
-        "consumeHeldItem": false,
-        "learnableMoves": [
-            "ficklebeak"
-        ],
-        "requirements": [
-            {
-                "variant": "level",
-                "minLevel": "49"
-            }
-        ]
+      "id": "dodrio_dodetrad",
+      "variant": "level_up",
+      "result": "dodetrad",
+      "consumeHeldItem": false,
+      "learnableMoves": [
+        "ficklebeak"
+      ],
+      "requirements": [
+        {
+          "variant": "level",
+          "minLevel": "49"
+        }
+      ]
     }
-]
+  ]
 }

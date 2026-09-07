@@ -1,256 +1,269 @@
 {
-    "implemented": true,
-    "nationalPokedexNumber": 9054,
-    "name": "Hydraangea",
-    "primaryType": "grass",
-    "secondaryType": "dragon",
-    "maleRatio": 0.5,
-    "height": 28,
-    "weight": 500,
-    "pokedex": [
-        "cobblemon.species.hydraangea.desc1",
-        "cobblemon.species.hydraangea.desc2"
-    ],
-    "labels": [
-        "custom"
-    ],
-    "aspects": [],
-    "abilities": [
+  "implemented": true,
+  "nationalPokedexNumber": 9054,
+  "name": "Hydraangea",
+  "primaryType": "grass",
+  "secondaryType": "dragon",
+  "maleRatio": 0.5,
+  "height": 28,
+  "weight": 500,
+  "pokedex": [
+    "cobblemon.species.hydraangea.desc1",
+    "cobblemon.species.hydraangea.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "serpentsynergy",
+    "h:technician"
+  ],
+  "eggGroups": [
+    "grass",
+    "dragon"
+  ],
+  "baseStats": {
+    "hp": 95,
+    "attack": 70,
+    "defence": 70,
+    "special_attack": 120,
+    "special_defence": 90,
+    "speed": 95
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 0,
+    "special_attack": 3,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 275,
+  "experienceGroup": "medium_slow",
+  "catchRate": 200,
+  "eggCycles": 25,
+  "baseFriendship": 50,
+  "baseScale": 0.7,
+  "hitbox": {
+    "height": 4.2,
+    "fixed": false,
+    "width": 2.5
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "herd": {
+      "maxSize": "7"
+    },
+    "moving": {
+      "fly": {
+        "canFly": false
+      },
+      "swim": {
+        "swimSpeed": 0.2,
+        "canSwimInWater": false,
+        "canBreatheUnderwater": false,
+        "avoidsWater": true
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "drowsyChance": 0.0333,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": 2,
+    "entries": [
+      {
+        "item": "cobblemon:miracle_seed",
+        "percentage": 5.0
+      },
+      {
+        "item": "cobblemon:starf_berry",
+        "percentage": 5.0
+      }
+    ]
+  },
+  "moves": [
+    "1:bind",
+    "1:round",
+    "1:roar",
+    "1:disarmingvoice",
+    "1:growth",
+    "1:bottomlessbellow",
+    "7:bite",
+    "11:vinewhip",
+    "17:sweetscent",
+    "21:ingrain",
+    "27:feintattack",
+    "30:dragonbreath",
+    "31:leaftornado",
+    "31:spitup",
+    "31:stockpile",
+    "31:swallow",
+    "35:twister",
+    "37:crunch",
+    "37:spitup",
+    "37:stockpile",
+    "37:swallow",
+    "40:dragonpulse",
+    "41:crunch",
+    "41:wringout",
+    "43:echoedvoice",
+    "45:uproar",
+    "47:seedbomb",
+    "47:powerwhip",
+    "47:wringout",
+    "50:powerwhip",
+    "50:dracometeor",
+    "51:powerwhip",
+    "54:hypervoice",
+    "59:rest",
+    "59:snore",
+    "70:boomburst",
+    "egg:acidspray",
+    "egg:gigadrain",
+    "egg:grasswhistle",
+    "egg:leechseed",
+    "egg:magicalleaf",
+    "egg:ragepowder",
+    "egg:razorleaf",
+    "egg:slam",
+    "egg:sleeppowder",
+    "egg:stunspore",
+    "egg:synthesis",
+    "egg:worryseed",
+    "tm:attract",
+    "tm:bulletseed",
+    "tm:captivate",
+    "tm:confide",
+    "tm:cut",
+    "tm:doubleteam",
+    "tm:endure",
+    "tm:energyball",
+    "tm:facade",
+    "tm:flash",
+    "tm:fling",
+    "tm:frustration",
+    "tm:gigadrain",
+    "tm:gigaimpact",
+    "tm:grassknot",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:infestation",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:payback",
+    "tm:protect",
+    "tm:rest",
+    "tm:return",
+    "tm:round",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:sludgebomb",
+    "tm:solarbeam",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:swordsdance",
+    "tm:thief",
+    "tm:toxic",
+    "tutor:bind",
+    "tutor:bite",
+    "tutor:bugbite",
+    "tutor:defog",
+    "tutor:furycutter",
+    "tutor:gastroacid",
+    "tutor:gigadrain",
+    "tutor:knockoff",
+    "tutor:mudslap",
+    "tutor:ragepowder",
+    "tutor:seedbomb",
+    "tutor:sleeptalk",
+    "tutor:snore",
+    "tutor:synthesis",
+    "tutor:throatchop",
+    "tutor:worryseed"
+  ],
+  "preEvolution": "carnivine",
+  "evolutions": [],
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "grass",
+      "secondaryType": "dragon",
+      "maleRatio": 0.5,
+      "height": 28,
+      "weight": 500,
+      "pokedex": [
+        "cobblemon.species.hydraangea-mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
         "serpentsynergy",
-        "h:technician"
-    ],
-    "eggGroups": [
-        "grass",
-        "dragon"
-    ],
-    "baseStats": {
-      "hp": 95,
-      "attack": 70,
-      "defence": 70,
-      "special_attack": 120,
-      "special_defence": 90,
-      "speed": 95
-    },
-    "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 0,
-        "special_attack": 3,
-        "special_defence": 0,
-        "speed": 0
-    },
-    "baseExperienceYield": 275,
-    "experienceGroup": "medium_slow",
-    "catchRate": 200,
-    "eggCycles": 25,
-    "baseFriendship": 50,
-    "baseScale": 0.7,
-    "hitbox": {
-        "height": 4.2,
-        "fixed": false,
-        "width": 2.5
-    },
-    "behaviour": {
+        "h:serpentsynergy"
+      ],
+      "baseStats": {
+        "hp": 95,
+        "attack": 70,
+        "defence": 85,
+        "special_attack": 160,
+        "special_defence": 100,
+        "speed": 130
+      },
+      "baseExperienceYield": 325,
+      "behaviour": {
         "combat": {
-            "willDefendOwner": true,
-            "willDefendSelf": true,
-            "willFlee": false
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
         },
         "herd": {
-            "maxSize": "7"
+          "maxSize": "6",
+          "toleratedLeaders": [
+            {
+              "pokemon": "roaroot",
+              "tier": 1
+            },
+            {
+              "pokemon": "carnivine",
+              "tier": 2
+            },
+            {
+              "pokemon": "hydraangea",
+              "tier": 3
+            }
+          ]
         },
         "moving": {
-            "fly": {
-                "canFly": false
-            },
-            "swim": {
-                "swimSpeed": 0.2,
-                "canSwimInWater": false,
-                "canBreatheUnderwater": false,
-                "avoidsWater": true
-            }
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "swimSpeed": 0.2,
+            "canSwimInWater": false,
+            "canBreatheUnderwater": false,
+            "avoidsWater": true
+          }
         },
         "resting": {
-            "canSleep": true,
-            "drowsyChance": 0.0333,
-            "rouseChance": 0.0042
+          "drowsyChance": 0.0333,
+          "rouseChance": 0.0042
         }
-    },
-    "drops": {
-        "amount": 2,
-        "entries": [
-            {
-                "item": "cobblemon:miracle_seed",
-                "percentage": 5.0
-            },
-            {
-                "item": "cobblemon:starf_berry",
-                "percentage": 5.0
-            }
-        ]
-    },
-    "moves": [
-      "1:bind",
-      "1:round",
-      "1:roar",
-      "1:disarmingvoice",
-      "1:growth",
-      "1:bottomlessbellow",
-      "7:bite",
-      "11:vinewhip",
-      "17:sweetscent",
-      "21:ingrain",
-      "27:feintattack",
-      "30:dragonbreath",
-      "31:leaftornado",
-      "31:spitup",
-      "31:stockpile",
-      "31:swallow",
-      "35:twister",
-      "37:crunch",
-      "37:spitup",
-      "37:stockpile",
-      "37:swallow",
-      "40:dragonpulse",
-      "41:crunch",
-      "41:wringout",
-      "43:echoedvoice",
-      "45:uproar",
-      "47:seedbomb",
-      "47:powerwhip",
-      "47:wringout",
-      "50:powerwhip",
-      "50:dracometeor",
-      "51:powerwhip",
-      "54:hypervoice",
-      "59:rest",
-      "59:snore",
-      "70:boomburst",
-      "egg:acidspray",
-      "egg:gigadrain",
-      "egg:grasswhistle",
-      "egg:leechseed",
-      "egg:magicalleaf",
-      "egg:ragepowder",
-      "egg:razorleaf",
-      "egg:slam",
-      "egg:sleeppowder",
-      "egg:stunspore",
-      "egg:synthesis",
-      "egg:worryseed",
-      "tm:attract",
-      "tm:bulletseed",
-      "tm:captivate",
-      "tm:confide",
-      "tm:cut",
-      "tm:doubleteam",
-      "tm:endure",
-      "tm:energyball",
-      "tm:facade",
-      "tm:flash",
-      "tm:fling",
-      "tm:frustration",
-      "tm:gigadrain",
-      "tm:gigaimpact",
-      "tm:grassknot",
-      "tm:hiddenpower",
-      "tm:hyperbeam",
-      "tm:infestation",
-      "tm:naturalgift",
-      "tm:naturepower",
-      "tm:payback",
-      "tm:protect",
-      "tm:rest",
-      "tm:return",
-      "tm:round",
-      "tm:secretpower",
-      "tm:sleeptalk",
-      "tm:sludgebomb",
-      "tm:solarbeam",
-      "tm:substitute",
-      "tm:sunnyday",
-      "tm:swagger",
-      "tm:swordsdance",
-      "tm:thief",
-      "tm:toxic",
-      "tutor:bind",
-      "tutor:bite",
-      "tutor:bugbite",
-      "tutor:defog",
-      "tutor:furycutter",
-      "tutor:gastroacid",
-      "tutor:gigadrain",
-      "tutor:knockoff",
-      "tutor:mudslap",
-      "tutor:ragepowder",
-      "tutor:seedbomb",
-      "tutor:sleeptalk",
-      "tutor:snore",
-      "tutor:synthesis",
-      "tutor:throatchop",
-      "tutor:worryseed"
-    ],
-    "preEvolution": "carnivine",
-    "evolutions": [],
-    "forms": [
-        {
-            "name": "Mega",
-            "primaryType": "grass",
-            "secondaryType": "dragon",
-            "maleRatio": 0.5,
-            "height": 28,
-            "weight": 500,
-            "pokedex": [
-                "cobblemon.species.hydraangea-mega.desc"
-            ],
-            "labels": [
-                "custom",
-                "mega"
-            ],
-            "aspects": [
-                "mega"
-            ],
-            "abilities": [
-                "serpentsynergy",
-                "h:serpentsynergy"
-            ],
-            "baseStats": {
-            "hp": 95,
-            "attack": 70,
-            "defence": 85,
-            "special_attack": 160,
-            "special_defence": 100,
-            "speed": 130
-            },
-            "baseExperienceYield": 325,
-            "behaviour": {
-                "combat": {
-                    "willDefendOwner": true,
-                    "willDefendSelf": true,
-                    "willFlee": false
-                },
-                "herd": {
-                    "maxSize": "8"
-                },
-                "moving": {
-                    "fly": {
-                        "canFly": true
-                    },
-                    "swim": {
-                        "swimSpeed": 0.2,
-                        "canSwimInWater": false,
-                        "canBreatheUnderwater": false,
-                        "avoidsWater": true
-                    }
-                },
-                "resting": {
-                    "drowsyChance": 0.0333,
-                    "rouseChance": 0.0042
-                }
-            },
-            "battleOnly": true,
-            "dynamaxBlocked": true
-        }
-    ]
-    
+      },
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
 }

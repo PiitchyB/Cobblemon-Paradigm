@@ -1,0 +1,125 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dodetrad-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "47-100",
+      "weight": 100.0,
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
+        }
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "dodetrad held_item=cobblemon:flying_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "doduo",
+          "weight": 80.0,
+          "levelRange": "6-31",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "dodrio",
+          "weight": 70.0,
+          "levelRange": "33-49",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "dodetrad",
+          "weight": 50.0,
+          "levelRange": "51-60",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "dodetrad-alpha-2",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 8,
+      "levelRange": "47-100",
+      "weight": 100.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "dodetrad held_item=cobblemon:flying_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "doduo",
+          "weight": 80.0,
+          "levelRange": "6-31",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "dodrio",
+          "weight": 70.0,
+          "levelRange": "33-49",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "dodetrad",
+          "weight": 50.0,
+          "levelRange": "51-60",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

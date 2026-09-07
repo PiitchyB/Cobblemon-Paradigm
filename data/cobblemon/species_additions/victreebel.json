@@ -1,15 +1,24 @@
 {
   "implemented": true,
   "target": "cobblemon:victreebel",
-  "features": ["hexonian"],
+  "features": [
+    "hexonian"
+  ],
   "forms": [
     {
       "name": "Hexon",
       "primaryType": "dark",
       "secondaryType": "psychic",
-      "labels": ["custom"],
-      "aspects": ["hexonian"],
-      "abilities": ["aftermath", "h:prankster"],
+      "labels": [
+        "custom"
+      ],
+      "aspects": [
+        "hexonian"
+      ],
+      "abilities": [
+        "aftermath",
+        "h:prankster"
+      ],
       "baseStats": {
         "hp": 90,
         "attack": 50,
@@ -68,8 +77,10 @@
         "32:extrasensory",
         "44:memento",
         "tm:toxic"
-          ],
-      "eggGroups": ["grass"],
+      ],
+      "eggGroups": [
+        "grass"
+      ],
       "drops": {
         "amount": 3,
         "entries": [

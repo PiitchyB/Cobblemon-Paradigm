@@ -1,294 +1,294 @@
 {
-    "implemented": true,
-    "nationalPokedexNumber": 9051,
-    "name": "Penumbranch",
-    "primaryType": "fire",
-    "secondaryType": "water",
-    "maleRatio": 0.5,
-    "height": 60,
-    "weight": 830,
-    "pokedex": [
-        "cobblemon.species.penumbranch.desc1",
-        "cobblemon.species.penumbranch.desc2"
-    ],
-    "labels": [
-        "custom"
-    ],
-    "aspects": [],
-    "abilities": [
-        "drought",
-        "regenerator",
+  "implemented": true,
+  "nationalPokedexNumber": 9051,
+  "name": "Penumbranch",
+  "primaryType": "fire",
+  "secondaryType": "water",
+  "maleRatio": 0.5,
+  "height": 60,
+  "weight": 830,
+  "pokedex": [
+    "cobblemon.species.penumbranch.desc1",
+    "cobblemon.species.penumbranch.desc2"
+  ],
+  "labels": [
+    "custom"
+  ],
+  "aspects": [],
+  "abilities": [
+    "drought",
+    "regenerator",
+    "h:dormant"
+  ],
+  "eggGroups": [
+    "amorphous"
+  ],
+  "baseStats": {
+    "hp": 80,
+    "attack": 50,
+    "defence": 139,
+    "special_attack": 137,
+    "special_defence": 127,
+    "speed": 117
+  },
+  "evYield": {
+    "hp": 0,
+    "attack": 0,
+    "defence": 1,
+    "special_attack": 2,
+    "special_defence": 0,
+    "speed": 0
+  },
+  "baseExperienceYield": 275,
+  "experienceGroup": "medium_fast",
+  "catchRate": 75,
+  "eggCycles": 20,
+  "baseFriendship": 50,
+  "baseScale": 1.5,
+  "hitbox": {
+    "height": 1.4,
+    "fixed": false,
+    "width": 2.8
+  },
+  "behaviour": {
+    "combat": {
+      "willDefendOwner": true,
+      "willDefendSelf": true,
+      "willFlee": false
+    },
+    "herd": {
+      "maxSize": "7"
+    },
+    "moving": {
+      "swim": {
+        "swimSpeed": 0.1,
+        "canSwimInWater": true,
+        "canBreatheUnderwater": true,
+        "canWalkOnLava": true,
+        "canBreatheUnderLava": true,
+        "canSwimInLava": true
+      },
+      "walk": {
+        "walkSpeed": 0.2
+      }
+    },
+    "resting": {
+      "canSleep": true,
+      "light": "0-4",
+      "times": [
+        "any"
+      ],
+      "drowsyChance": 0.0014,
+      "rouseChance": 0.0042
+    }
+  },
+  "drops": {
+    "amount": "2",
+    "entries": [
+      {
+        "item": "minecraft:obsidian",
+        "percentage": 50.0
+      }
+    ]
+  },
+  "moves": [
+    "1:earthpower",
+    "1:ember",
+    "1:rockthrow",
+    "1:shellsmash",
+    "1:smog",
+    "1:yawn",
+    "1:watergun",
+    "1:scald",
+    "6:bubble",
+    "9:smokescreen",
+    "13:harden",
+    "15:incinerate",
+    "20:clearsmog",
+    "22:ancientpower",
+    "25:bubblebeam",
+    "29:waterpulse",
+    "34:lavaplume",
+    "36:amnesia",
+    "43:muddywater",
+    "47:recover",
+    "52:flipturn",
+    "54:flamethrower",
+    "58:hydropump",
+    "60:hydrosteam",
+    "65:steameruption",
+    "tm:attract",
+    "tm:bulldoze",
+    "tm:captivate",
+    "tm:confide",
+    "tm:doubleteam",
+    "tm:earthquake",
+    "tm:endure",
+    "tm:explosion",
+    "tm:facade",
+    "tm:fireblast",
+    "tm:flamecharge",
+    "tm:flamethrower",
+    "tm:frustration",
+    "tm:gigaimpact",
+    "tm:gyroball",
+    "tm:hiddenpower",
+    "tm:hyperbeam",
+    "tm:incinerate",
+    "tm:infestation",
+    "tm:lightscreen",
+    "tm:naturalgift",
+    "tm:naturepower",
+    "tm:overheat",
+    "tm:protect",
+    "tm:reflect",
+    "tm:rest",
+    "tm:return",
+    "tm:rockpolish",
+    "tm:rockslide",
+    "tm:rocksmash",
+    "tm:rocktomb",
+    "tm:round",
+    "tm:sandstorm",
+    "tm:secretpower",
+    "tm:sleeptalk",
+    "tm:smackdown",
+    "tm:solarbeam",
+    "tm:stealthrock",
+    "tm:stoneedge",
+    "tm:strength",
+    "tm:substitute",
+    "tm:sunnyday",
+    "tm:swagger",
+    "tm:toxic",
+    "tm:waterpulse",
+    "tm:raindance",
+    "tm:dive",
+    "tm:scald",
+    "tm:hydropump",
+    "tm:willowisp",
+    "tm:bubblebeam",
+    "tm:watergun",
+    "tutor:afteryou",
+    "tutor:amnesia",
+    "tutor:ancientpower",
+    "tutor:attract",
+    "tutor:bodyslam",
+    "tutor:curse",
+    "tutor:defensecurl",
+    "tutor:doubleedge",
+    "tutor:doubleteam",
+    "tutor:earthpower",
+    "tutor:earthquake",
+    "tutor:ember",
+    "tutor:endure",
+    "tutor:fireblast",
+    "tutor:flamethrower",
+    "tutor:frustration",
+    "tutor:harden",
+    "tutor:heatwave",
+    "tutor:hiddenpower",
+    "tutor:hyperbeam",
+    "tutor:irondefense",
+    "tutor:mimic",
+    "tutor:mudslap",
+    "tutor:painsplit",
+    "tutor:protect",
+    "tutor:refresh",
+    "tutor:rest",
+    "tutor:return",
+    "tutor:rockslide",
+    "tutor:rocksmash",
+    "tutor:rockthrow",
+    "tutor:rollout",
+    "tutor:selfdestruct",
+    "tutor:sleeptalk",
+    "tutor:smog",
+    "tutor:snore",
+    "tutor:stealthrock",
+    "tutor:stompingtantrum",
+    "tutor:strength",
+    "tutor:substitute",
+    "tutor:sunnyday",
+    "tutor:swagger",
+    "tutor:toxic"
+  ],
+  "preEvolution": "magcargo",
+  "evolutions": [],
+  "lightingData": {
+    "lightLevel": 15,
+    "liquidGlowMode": "BOTH"
+  },
+  "forms": [
+    {
+      "name": "Mega",
+      "primaryType": "fire",
+      "secondaryType": "water",
+      "maleRatio": 0.5,
+      "height": 60,
+      "weight": 830,
+      "pokedex": [
+        "cobblemon.species.penumbranch-mega.desc"
+      ],
+      "labels": [
+        "custom",
+        "mega"
+      ],
+      "aspects": [
+        "mega"
+      ],
+      "abilities": [
+        "dormant",
+        "dormant",
         "h:dormant"
-    ],
-    "eggGroups": [
-        "amorphous"
-    ],
-    "baseStats": {
+      ],
+      "baseStats": {
         "hp": 80,
         "attack": 50,
         "defence": 139,
         "special_attack": 137,
         "special_defence": 127,
         "speed": 117
-    },
-    "evYield": {
-        "hp": 0,
-        "attack": 0,
-        "defence": 1,
-        "special_attack": 2,
-        "special_defence": 0,
-        "speed": 0
-    },
-    "baseExperienceYield": 275,
-    "experienceGroup": "medium_fast",
-    "catchRate": 75,
-    "eggCycles": 20,
-    "baseFriendship": 50,
-    "baseScale": 1.5,
-    "hitbox": {
-        "height": 1.4,
-        "fixed": false,
-        "width": 2.8
-    },
-    "behaviour": {
+      },
+      "baseExperienceYield": 325,
+      "behaviour": {
         "combat": {
-            "willDefendOwner": true,
-            "willDefendSelf": true,
-            "willFlee": false
+          "willDefendOwner": true,
+          "willDefendSelf": true,
+          "willFlee": false
         },
         "herd": {
-            "maxSize": "7"
+          "maxSize": "8"
         },
         "moving": {
-            "swim": {
-                "swimSpeed": 0.1,
-                "canSwimInWater": true,
-                "canBreatheUnderwater": true,
-                "canWalkOnLava": true,
-                "canBreatheUnderLava": true,
-                "canSwimInLava": true
-            },
-            "walk": {
-                "walkSpeed": 0.2
-            }
+          "walk": {
+            "walkSpeed": 0.1
+          },
+          "swim": {
+            "canSwimInWater": false,
+            "canBreatheUnderwater": true,
+            "canWalkOnLava": true,
+            "canBReatheUnderLava": true,
+            "canSwimInLava": true,
+            "swimSpeed": 0.1
+          }
         },
         "resting": {
-            "canSleep": true,
-            "light": "0-4",
-            "times": [
-                "any"
-            ],
-            "drowsyChance": 0.0014,
-            "rouseChance": 0.0042
+          "canSleep": true,
+          "light": "0-4",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
         }
-    },
-    "drops": {
-        "amount": "2",
-        "entries": [
-            {
-                "item": "minecraft:obsidian",
-                "percentage": 50.0
-            }
-        ]
-    },
-    "moves": [
-        "1:earthpower",
-        "1:ember",
-        "1:rockthrow",
-        "1:shellsmash",
-        "1:smog",
-        "1:yawn",
-        "1:watergun",
-        "1:scald",
-        "6:bubble",
-        "9:smokescreen",
-        "13:harden",
-        "15:incinerate",
-        "20:clearsmog",
-        "22:ancientpower",
-        "25:bubblebeam",
-        "29:waterpulse",
-        "34:lavaplume",
-        "36:amnesia",
-        "43:muddywater",
-        "47:recover",
-        "52:flipturn",
-        "54:flamethrower",
-        "58:hydropump",
-        "60:hydrosteam",
-        "65:steameruption",
-        "tm:attract",
-        "tm:bulldoze",
-        "tm:captivate",
-        "tm:confide",
-        "tm:doubleteam",
-        "tm:earthquake",
-        "tm:endure",
-        "tm:explosion",
-        "tm:facade",
-        "tm:fireblast",
-        "tm:flamecharge",
-        "tm:flamethrower",
-        "tm:frustration",
-        "tm:gigaimpact",
-        "tm:gyroball",
-        "tm:hiddenpower",
-        "tm:hyperbeam",
-        "tm:incinerate",
-        "tm:infestation",
-        "tm:lightscreen",
-        "tm:naturalgift",
-        "tm:naturepower",
-        "tm:overheat",
-        "tm:protect",
-        "tm:reflect",
-        "tm:rest",
-        "tm:return",
-        "tm:rockpolish",
-        "tm:rockslide",
-        "tm:rocksmash",
-        "tm:rocktomb",
-        "tm:round",
-        "tm:sandstorm",
-        "tm:secretpower",
-        "tm:sleeptalk",
-        "tm:smackdown",
-        "tm:solarbeam",
-        "tm:stealthrock",
-        "tm:stoneedge",
-        "tm:strength",
-        "tm:substitute",
-        "tm:sunnyday",
-        "tm:swagger",
-        "tm:toxic",
-        "tm:waterpulse",
-        "tm:raindance",
-        "tm:dive",
-        "tm:scald",
-        "tm:hydropump",
-        "tm:willowisp",
-        "tm:bubblebeam",
-        "tm:watergun",
-        "tutor:afteryou",
-        "tutor:amnesia",
-        "tutor:ancientpower",
-        "tutor:attract",
-        "tutor:bodyslam",
-        "tutor:curse",
-        "tutor:defensecurl",
-        "tutor:doubleedge",
-        "tutor:doubleteam",
-        "tutor:earthpower",
-        "tutor:earthquake",
-        "tutor:ember",
-        "tutor:endure",
-        "tutor:fireblast",
-        "tutor:flamethrower",
-        "tutor:frustration",
-        "tutor:harden",
-        "tutor:heatwave",
-        "tutor:hiddenpower",
-        "tutor:hyperbeam",
-        "tutor:irondefense",
-        "tutor:mimic",
-        "tutor:mudslap",
-        "tutor:painsplit",
-        "tutor:protect",
-        "tutor:refresh",
-        "tutor:rest",
-        "tutor:return",
-        "tutor:rockslide",
-        "tutor:rocksmash",
-        "tutor:rockthrow",
-        "tutor:rollout",
-        "tutor:selfdestruct",
-        "tutor:sleeptalk",
-        "tutor:smog",
-        "tutor:snore",
-        "tutor:stealthrock",
-        "tutor:stompingtantrum",
-        "tutor:strength",
-        "tutor:substitute",
-        "tutor:sunnyday",
-        "tutor:swagger",
-        "tutor:toxic"
-    ],
-    "preEvolution": "magcargo",
-    "evolutions": [],
-    "lightingData": {
+      },
+      "lightingData": {
         "lightLevel": 15,
         "liquidGlowMode": "BOTH"
-    },
-    "forms": [
-        {
-            "name": "Mega",
-            "primaryType": "fire",
-            "secondaryType": "water",
-            "maleRatio": 0.5,
-            "height": 60,
-            "weight": 830,
-            "pokedex": [
-                "cobblemon.species.penumbranch-mega.desc"
-            ],
-            "labels": [
-                "custom",
-                "mega"
-            ],
-            "aspects": [
-                "mega"
-            ],
-            "abilities": [
-                "dormant",
-                "dormant",
-                "h:dormant"
-            ],
-            "baseStats": {
-                "hp": 80,
-                "attack": 50,
-                "defence": 139,
-                "special_attack": 137,
-                "special_defence": 127,
-                "speed": 117
-            },
-            "baseExperienceYield": 325,
-            "behaviour": {
-                "combat": {
-                    "willDefendOwner": true,
-                    "willDefendSelf": true,
-                    "willFlee": false
-                },
-                "herd": {
-                    "maxSize": "8"
-                },
-                "moving": {
-                    "walk": {
-                        "walkSpeed": 0.1
-                    },
-                    "swim": {
-                        "canSwimInWater": false,
-                        "canBreatheUnderwater": true,
-                        "canWalkOnLava": true,
-                        "canBReatheUnderLava": true,
-                        "canSwimInLava": true,
-                        "swimSpeed": 0.1
-                    }
-                },
-                "resting": {
-                    "canSleep": true,
-                    "light": "0-4",
-                    "times": [
-                        "any"
-                    ],
-                    "drowsyChance": 0.0014,
-                    "rouseChance": 0.0042
-                }
-            },
-            "lightingData": {
-                "lightLevel": 15,
-                "liquidGlowMode": "BOTH"
-            },
-            "battleOnly": true,
-            "dynamaxBlocked": true
-        }
-    ]
+      },
+      "battleOnly": true,
+      "dynamaxBlocked": true
+    }
+  ]
 }

@@ -1,85 +1,84 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "hydraangea-1",
-            "pokemon": "hydraangea",
-            "presets": [
-                "natural",
-                "foliage"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "43-65",
-            "weight": 0.05,
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "aether:skyroot_forest",
-                    "aether:skyroot_woodland",
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "hydraangea-2",
-            "pokemon": "hydraangea",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "43-65",
-            "weight": 0.01,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            },
-            "anticondition": {
-                "structures": [
-                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
-                ],
-                "minY": -41,
-                "maxY": 9
-            }
-        },
-        {
-            "id": "hydraangea-3",
-            "pokemon": "hydraangea",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "43-65",
-            "weight": 0.01,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "structures": [
-                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
-                ],
-                "minY": -41,
-                "maxY": 9
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        }
-
-    ]
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "hydraangea-1",
+      "pokemon": "hydraangea",
+      "presets": [
+        "natural",
+        "foliage"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-65",
+      "weight": 10.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland",
+          "#cobblemon:is_swamp"
+        ]
+      }
+    },
+    {
+      "id": "hydraangea-2",
+      "pokemon": "hydraangea",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-65",
+      "weight": 3.3,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "minY": -41,
+        "maxY": 9
+      }
+    },
+    {
+      "id": "hydraangea-3",
+      "pokemon": "hydraangea",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "43-65",
+      "weight": 3.3,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "minY": -41,
+        "maxY": 9
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
 }

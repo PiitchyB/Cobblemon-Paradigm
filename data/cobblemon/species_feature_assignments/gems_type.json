@@ -1,4 +1,8 @@
 {
-  "pokemon": ["salaberrant"],
-  "features": ["gems_type"]
+  "pokemon": [
+    "salaberrant"
+  ],
+  "features": [
+    "gems_type"
+  ]
 }

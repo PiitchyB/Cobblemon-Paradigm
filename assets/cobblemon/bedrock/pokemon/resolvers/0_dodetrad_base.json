@@ -1,32 +1,32 @@
 {
-    "species": "cobblemon:dodetrad",
-    "order": 0,
-    "variations": [
-      {
-        "aspects": [],
-        "poser": "cobblemon:dodetrad",
-        "model": "cobblemon:dodetrad_male.geo",
-        "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad.png",
-        "layers": [
-        ]
-      },
-      {
-        "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad_shiny.png",
-        "layers": [
-        ]
-      },
-      {
-        "aspects": [
-          "alpha_eyes"
-        ],
-        "layers": [
-          {
-            "name": "alpha_eyes",
-            "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad_alpha.png",
-            "emissive": true
-          }
-        ]
-      }
-    ]
-  }
+  "species": "cobblemon:dodetrad",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:dodetrad",
+      "model": "cobblemon:dodetrad_male.geo",
+      "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad_shiny.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/dodetrad/dodetrad_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

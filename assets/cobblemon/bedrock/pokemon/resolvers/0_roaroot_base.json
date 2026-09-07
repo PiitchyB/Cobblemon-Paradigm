@@ -1,32 +1,32 @@
 {
-    "species": "cobblemon:roaroot",
-    "order": 0,
-    "variations": [
-      {
-        "aspects": [],
-        "poser": "cobblemon:roaroot",
-        "model": "cobblemon:roaroot.geo",
-        "texture": "cobblemon:textures/pokemon/roaroot/roaroot.png",
-        "layers": [
-        ]
-      },
-      {
-        "aspects": [ "shiny" ],
-        "texture": "cobblemon:textures/pokemon/roaroot/roaroot_shiny.png",
-        "layers": [
-        ]
-      },
-      {
-        "aspects": [
-          "alpha_eyes"
-        ],
-        "layers": [
-          {
-            "name": "alpha_eyes",
-            "texture": "cobblemon:textures/pokemon/roaroot/roaroot_alpha.png",
-            "emissive": true
-          }
-        ]
-      }
-    ]
-  }
+  "species": "cobblemon:roaroot",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": "cobblemon:roaroot",
+      "model": "cobblemon:roaroot.geo",
+      "texture": "cobblemon:textures/pokemon/roaroot/roaroot.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/roaroot/roaroot_shiny.png",
+      "layers": [
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/roaroot/roaroot_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

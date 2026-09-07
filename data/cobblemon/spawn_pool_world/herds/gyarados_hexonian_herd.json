@@ -1,0 +1,62 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gyarados-hexonian-herd-1",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "common",
+      "spawnablePositionType": "submerged",
+      "maxHerdSize": 5,
+      "levelRange": "30-54",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "gyarados hexonian",
+          "weight": 120.0,
+          "levelRange": "32-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "gyarados-hexonian-herd-2",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "surface",
+      "maxHerdSize": 5,
+      "levelRange": "30-54",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "gyarados hexonian",
+          "weight": 120.0,
+          "levelRange": "32-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

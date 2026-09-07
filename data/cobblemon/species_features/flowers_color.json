@@ -1,6 +1,8 @@
 {
   "type": "choice",
-  "keys": ["flowers_color"],
+  "keys": [
+    "flowers_color"
+  ],
   "default": "random",
   "choices": [
     "pink",

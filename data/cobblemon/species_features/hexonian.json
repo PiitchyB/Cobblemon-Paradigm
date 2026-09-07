@@ -1,6 +1,8 @@
 {
-    "keys": [ "hexonian" ],
-    "type": "flag",
-    "isAspect": true,
-    "default": false
-  }
+  "keys": [
+    "hexonian"
+  ],
+  "type": "flag",
+  "isAspect": true,
+  "default": false
+}

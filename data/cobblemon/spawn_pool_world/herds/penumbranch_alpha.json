@@ -1,0 +1,289 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "penumbranch-alpha-1",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "41-100",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:nether/is_basalt",
+          "#cobblemon:nether/is_wasteland"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "penumbranch held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "slugma",
+          "weight": 80.0,
+          "levelRange": "4-22",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "magcargo",
+          "weight": 70.0,
+          "levelRange": "40-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "penumbranch",
+          "weight": 50.0,
+          "levelRange": "46-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "penumbranch-alpha-2",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "surface",
+      "maxHerdSize": 7,
+      "levelRange": "41-100",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#minecraft:is_nether",
+          "#cobblemon:is_volcanic"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "penumbranch held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "slugma",
+          "weight": 80.0,
+          "levelRange": "4-22",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "magcargo",
+          "weight": 70.0,
+          "levelRange": "40-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "penumbranch",
+          "weight": 50.0,
+          "levelRange": "46-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "penumbranch-alpha-3",
+      "presets": [
+        "lava"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "surface",
+      "maxHerdSize": 7,
+      "levelRange": "41-100",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ]
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "penumbranch held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "slugma",
+          "weight": 80.0,
+          "levelRange": "4-22",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "magcargo",
+          "weight": 70.0,
+          "levelRange": "40-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "penumbranch",
+          "weight": 50.0,
+          "levelRange": "46-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "penumbranch-alpha-4",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 7,
+      "levelRange": "41-100",
+      "weight": 100.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_volcanic"
+        ],
+        "neededNearbyBlocks": [
+          "minecraft:lava"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "penumbranch held_item=cobblemon:fire_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "slugma",
+          "weight": 80.0,
+          "levelRange": "4-22",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "magcargo",
+          "weight": 70.0,
+          "levelRange": "40-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "penumbranch",
+          "weight": 50.0,
+          "levelRange": "46-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "penumbranch-alpha-5",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon-herd",
+      "bucket": "boss",
+      "spawnablePositionType": "seafloor",
+      "maxHerdSize": 7,
+      "levelRange": "41-100",
+      "weight": 100.0,
+      "condition": {
+        "canSeeSky": true,
+        "biomes": [
+          "#cobblemon:is_warm_ocean"
+        ],
+        "maxY": 50,
+        "minY": 20
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "penumbranch held_item=cobblemon:water_gem alpha=true",
+          "weight": 30.0,
+          "levelRange": "1-100",
+          "maxTimes": 1,
+          "isLeader": true,
+          "isFollower": false
+        },
+        {
+          "pokemon": "slugma",
+          "weight": 80.0,
+          "levelRange": "4-22",
+          "levelRangeOffset": "-4-2",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "magcargo",
+          "weight": 70.0,
+          "levelRange": "40-44",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 5,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "penumbranch",
+          "weight": 50.0,
+          "levelRange": "46-59",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 3,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

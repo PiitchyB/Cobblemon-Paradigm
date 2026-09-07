@@ -1,18 +1,18 @@
 {
-    "target": "cobblemon:magcargo",
-    "evolutions": [
-      {
-        "id": "magcargo_penumbranch",
-        "variant": "level_up",
-        "result": "penumbranch",
-        "consumeHeldItem": false,
-        "learnableMoves": [],
-        "requirements": [
-          {
-            "variant": "biome",
-            "biomeCondition": "#cobblemon:is_warm_ocean"
-          }
-        ]
-      }
-    ]
+  "target": "cobblemon:magcargo",
+  "evolutions": [
+    {
+      "id": "magcargo_penumbranch",
+      "variant": "level_up",
+      "result": "penumbranch",
+      "consumeHeldItem": false,
+      "learnableMoves": [],
+      "requirements": [
+        {
+          "variant": "biome",
+          "biomeCondition": "#cobblemon:is_warm_ocean"
+        }
+      ]
+    }
+  ]
 }

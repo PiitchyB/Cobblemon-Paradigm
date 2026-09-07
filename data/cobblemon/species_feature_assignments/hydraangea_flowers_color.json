@@ -1,4 +1,10 @@
 {
-    "pokemon": ["roaroot", "carnivine", "hydraangea"],
-    "features": ["flowers_color"]
-  }
+  "pokemon": [
+    "roaroot",
+    "carnivine",
+    "hydraangea"
+  ],
+  "features": [
+    "flowers_color"
+  ]
+}

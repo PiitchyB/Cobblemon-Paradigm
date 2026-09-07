@@ -1,86 +1,85 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "roaroot-1",
-            "pokemon": "roaroot",
-            "presets": [
-                "natural",
-                "treetop",
-                "foliage"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "1-22",
-            "weight": 10.0,
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "aether:skyroot_forest",
-                    "aether:skyroot_woodland",
-                    "#cobblemon:is_swamp"
-                ]
-            }
-        },
-        {
-            "id": "raoroot-2",
-            "pokemon": "roaroot",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "1-22",
-            "weight": 3.0,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            },
-            "anticondition": {
-                "structures": [
-                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
-                ],
-                "minY": -41,
-                "maxY": 9
-            }
-        },
-        {
-            "id": "roaroot-3",
-            "pokemon": "roaroot",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "uncommon",
-            "level": "1-22",
-            "weight": 3.0,
-            "condition": {
-                "minSkyLight": 0,
-                "maxSkyLight": 7,
-                "biomes": [
-                    "#cobblemon:is_overworld"
-                ],
-                "structures": [
-                    "cobblemon:shipwreck_coves/lush_shipwreck_cove"
-                ],
-                "minY": -41,
-                "maxY": 9
-            },
-            "anticondition": {
-                "biomes": [
-                    "#cobblemon:is_lush"
-                ]
-            }
-        }
-
-    ]
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "roaroot-1",
+      "pokemon": "roaroot",
+      "presets": [
+        "natural",
+        "treetop",
+        "foliage"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-22",
+      "weight": 33.0,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "aether:skyroot_forest",
+          "aether:skyroot_woodland",
+          "#cobblemon:is_swamp"
+        ]
+      }
+    },
+    {
+      "id": "raoroot-2",
+      "pokemon": "roaroot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-22",
+      "weight": 11.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      },
+      "anticondition": {
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "minY": -41,
+        "maxY": 9
+      }
+    },
+    {
+      "id": "roaroot-3",
+      "pokemon": "roaroot",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "1-22",
+      "weight": 11.0,
+      "condition": {
+        "minSkyLight": 0,
+        "maxSkyLight": 7,
+        "biomes": [
+          "#cobblemon:is_overworld"
+        ],
+        "structures": [
+          "cobblemon:shipwreck_coves/lush_shipwreck_cove"
+        ],
+        "minY": -41,
+        "maxY": 9
+      },
+      "anticondition": {
+        "biomes": [
+          "#cobblemon:is_lush"
+        ]
+      }
+    }
+  ]
 }

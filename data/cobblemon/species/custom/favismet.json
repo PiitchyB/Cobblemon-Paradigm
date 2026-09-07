@@ -52,7 +52,7 @@
     "fixed": false
   },
   "drops": {
-  "amount": "1",
+    "amount": "1",
     "entries": [
       {
         "item": "minecraft:slimeball",
@@ -63,10 +63,10 @@
   },
   "behaviour": {
     "moving": {
-    "canLook": false,
+      "canLook": false,
       "fly": {
         "canFly": true
-      },          
+      },
       "swim": {
         "swimSpeed": 0.2,
         "canSwimInWater": true,

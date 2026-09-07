@@ -1,52 +1,52 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "dodetrad-1",
-            "pokemon": "dodetrad",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "49-56",
-            "weight": 0.01,
-            "weightMultiplier": {
-                "multiplier": 0.25,
-                "condition": {
-                    "timeRange": "night"
-                }
-            },
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "#cobblemon:is_savanna"
-                ]
-            }
-        },
-        {
-            "id": "dodetrad-2",
-            "pokemon": "dodetrad",
-            "presets": [
-                "natural"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "grounded",
-            "bucket": "common",
-            "level": "49-56",
-            "weight": 0.01,
-            "condition": {
-                "minSkyLight": 8,
-                "maxSkyLight": 15,
-                "biomes": [
-                    "aether:skyroot_grove",
-                    "aether:skyroot_meadow"
-                ]
-            }
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "dodetrad-1",
+      "pokemon": "dodetrad",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "49-56",
+      "weight": 0.6,
+      "weightMultiplier": {
+        "multiplier": 0.25,
+        "condition": {
+          "timeRange": "night"
         }
-    ]
+      },
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "#cobblemon:is_savanna"
+        ]
+      }
+    },
+    {
+      "id": "dodetrad-2",
+      "pokemon": "dodetrad",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "common",
+      "level": "49-56",
+      "weight": 0.6,
+      "condition": {
+        "minSkyLight": 8,
+        "maxSkyLight": 15,
+        "biomes": [
+          "aether:skyroot_grove",
+          "aether:skyroot_meadow"
+        ]
+      }
+    }
+  ]
 }

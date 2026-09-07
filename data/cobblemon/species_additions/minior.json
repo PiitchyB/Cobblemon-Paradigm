@@ -1,6 +1,6 @@
 {
-    "target": "cobblemon:minior",
-    "moves": [
+  "target": "cobblemon:minior",
+  "moves": [
     "1:tackle",
     "3:defensecurl",
     "8:rollout",

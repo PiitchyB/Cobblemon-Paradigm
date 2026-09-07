@@ -1,35 +1,35 @@
 {
-    "target": "cobblemon:masquerain",
-    "evolutions": [
+  "target": "cobblemon:masquerain",
+  "evolutions": [
+    {
+      "id": "masquerain_chunlong",
+      "variant": "trade",
+      "result": "chunlong",
+      "consumeHeldItem": true,
+      "learnableMoves": [],
+      "requirements": [
         {
-          "id": "masquerain_chunlong",
-          "variant": "trade",
-          "result": "chunlong",
-          "consumeHeldItem": true,
-          "learnableMoves": [],
-          "requirements": [
-            {
-              "variant": "held_item",
-              "itemCondition": "cobblemon:dragon_scale"
-            }
-          ]
+          "variant": "held_item",
+          "itemCondition": "cobblemon:dragon_scale"
         }
-      ],
-      "herd:": {
-        "maxSize": "4",
-        "toleratedLeaders": [
-          {
-            "pokemon": "surskit",
-            "tier": 1
-          },
-          {
-            "pokemon": "masquerain",
-            "tier": 2
-          },
-          {
-            "pokemon": "chunlong",
-            "tier": 3
-          }
-        ]
+      ]
+    }
+  ],
+  "herd:": {
+    "maxSize": "4",
+    "toleratedLeaders": [
+      {
+        "pokemon": "surskit",
+        "tier": 1
+      },
+      {
+        "pokemon": "masquerain",
+        "tier": 2
+      },
+      {
+        "pokemon": "chunlong",
+        "tier": 3
       }
+    ]
+  }
 }

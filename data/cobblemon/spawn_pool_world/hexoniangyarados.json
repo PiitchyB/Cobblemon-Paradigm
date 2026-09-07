@@ -1,24 +1,41 @@
 {
-    "enabled": true,
-    "neededInstalledMods": [],
-    "neededUninstalledMods": [],
-    "spawns": [
-        {
-            "id": "hexoniangyarados-1",
-            "pokemon": "gyarados hexonian",
-            "presets": [
-                "water"
-            ],
-            "type": "pokemon",
-            "spawnablePositionType": "submerged",
-            "bucket": "common",
-            "level": "20-54",
-            "weight": 0.1,
-            "condition": {
-                "biomes": [
-                    "#cobblemon:is_magical"
-                ]
-            }
-        }
-    ]
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "gyarados-hexonian-1",
+      "pokemon": "gyarados hexonian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "submerged",
+      "bucket": "common",
+      "level": "30-54",
+      "weight": 4.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    },
+    {
+      "id": "gyarados-hexonian-2",
+      "pokemon": "gyarados hexonian",
+      "presets": [
+        "water"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "surface",
+      "bucket": "uncommon",
+      "level": "30-54",
+      "weight": 2.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_magical"
+        ]
+      }
+    }
+  ]
 }
