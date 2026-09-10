@@ -50,6 +50,28 @@
     "fixed": false,
     "width": 2.8
   },
+  "riding": {
+    "behaviours": {
+      "LAND": {
+        "key": "cobblemon:land/horse",
+        "rideSounds": [],
+        "canJump": false,
+        "canSprint": false,
+        "stats": {
+          "ACCELERATION": "10-25",
+          "JUMP": "0-5",
+          "SKILL": "50-70",
+          "SPEED": "1-5",
+          "STAMINA": "70-90"
+        }
+      }
+    },
+    "seats": [
+      {
+        "locator": "seat_1"
+      }
+    ]
+  },
   "behaviour": {
     "combat": {
       "willDefendOwner": true,
