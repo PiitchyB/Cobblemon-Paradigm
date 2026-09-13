@@ -18,7 +18,8 @@
     },
     {
       "aspects": [
-        "alpha_eyes"
+        "alpha_eyes",
+        "hexonian"
       ],
       "layers": [
         {

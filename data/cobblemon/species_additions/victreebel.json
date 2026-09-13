@@ -10,7 +10,8 @@
       "primaryType": "dark",
       "secondaryType": "psychic",
       "labels": [
-        "custom"
+        "custom",
+        "hexonian"
       ],
       "aspects": [
         "hexonian"
@@ -93,12 +94,6 @@
             "percentage": 70
           }
         ]
-      },
-      "baseScale": 1,
-      "hitbox": {
-        "width": 0.7,
-        "height": 1.6,
-        "fixed": false
       }
     }
   ]

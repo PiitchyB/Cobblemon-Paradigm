@@ -277,6 +277,14 @@
 					}
 				},
 				{
+					"name": "locator_seat_2",
+					"parent": "shell",
+					"pivot": [0, 12, 10],
+					"locators": {
+						"seat_2": [0, 12, 10]
+					}
+				},
+				{
 					"name": "feeler_right1",
 					"parent": "torso_front",
 					"pivot": [-14.5, -0.002, -10],
