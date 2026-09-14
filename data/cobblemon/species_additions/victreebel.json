@@ -9,6 +9,10 @@
       "name": "Hexon",
       "primaryType": "dark",
       "secondaryType": "psychic",
+      "pokedex": [
+        "cobblemon.species.victreebel-hexon.desc1",
+        "cobblemon.species.victreebel-hexon.desc2"
+      ],
       "labels": [
         "custom",
         "hexonian"
@@ -19,6 +23,9 @@
       "abilities": [
         "aftermath",
         "h:prankster"
+      ],
+      "eggGroups": [
+        "grass"
       ],
       "baseStats": {
         "hp": 90,
@@ -36,10 +43,63 @@
         "special_defence": 1,
         "speed": 1
       },
-      "pokedex": [
-        "cobblemon.species.victreebel-hexon.desc1",
-        "cobblemon.species.victreebel-hexon.desc2"
-      ],
+      "baseScale": 0.95,
+      "hitbox": {
+        "width": 1.15,
+        "height": 2,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true,
+            "flySpeedHorizontal": 0.2
+          },
+          "walk": {
+            "walkSpeed": 0.185
+          },
+          "swim": {
+            "avoidsWater": true
+          }
+        },
+        "resting": {
+          "canSleep": true,
+          "light": "0-4",
+          "depth": "comatose",
+          "times": [
+            "any"
+          ],
+          "drowsyChance": 0.0014,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendSelf": true,
+          "willDefendOwner": false,
+          "willFlee": false
+        },
+        "herd": {
+          "maxSize": 6,
+          "toleratedLeaders": [
+            {
+              "pokemon": "victreebel hexonian alpha",
+              "tier": 1
+            }
+          ]
+        }
+      },
+      "drops": {
+        "amount": 3,
+        "entries": [
+          {
+            "item": "minecraft:purple_dye",
+            "percentage": 70
+          },
+          {
+            "item": "minecraft:magenta_dye",
+            "percentage": 70
+          }
+        ]
+      },
       "moves": [
         "1:acid",
         "1:knockoff",
@@ -78,23 +138,7 @@
         "32:extrasensory",
         "44:memento",
         "tm:toxic"
-      ],
-      "eggGroups": [
-        "grass"
-      ],
-      "drops": {
-        "amount": 3,
-        "entries": [
-          {
-            "item": "minecraft:purple_dye",
-            "percentage": 70
-          },
-          {
-            "item": "minecraft:magenta_dye",
-            "percentage": 70
-          }
-        ]
-      }
+      ]
     }
   ]
 }
