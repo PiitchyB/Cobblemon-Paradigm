@@ -56,6 +56,15 @@
       "willDefendSelf": true,
       "willFlee": false
     },
+    "herd": {
+      "maxSize": 1,
+      "toleratedLeaders": [
+        {
+          "pokemon": "salaberrant alpha",
+          "tier": 1
+        }
+      ]
+    },
     "moving": {
       "swim": {
         "avoidsWater": true,
