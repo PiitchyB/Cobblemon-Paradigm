@@ -1,0 +1,9 @@
+{
+  "pokemon": [
+    "victreebel", 
+    "gyarados", 
+    "magikarp", 
+    "stunfisk"
+  ],
+  "features": ["hexonian"]
+}

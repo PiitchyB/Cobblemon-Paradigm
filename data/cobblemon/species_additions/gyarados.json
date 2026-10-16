@@ -1,9 +1,5 @@
 {
-  "implemented": true,
   "target": "cobblemon:gyarados",
-  "features": [
-    "hexonian"
-  ],
   "forms": [
     {
       "name": "Hexon",

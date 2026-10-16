@@ -7,7 +7,13 @@
       "poser": "cobblemon:hydraangea",
       "model": "cobblemon:hydraangea.geo",
       "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea.png",
-      "layers":[]
+      "layers":[
+        {
+          "name": "flowers",
+          "texture": "cobblemon:textures/pokemon/hydraangea/hydraangea_flowers_pink.png",
+          "emissive": false
+        }
+      ]
     },
     {
       "aspects": [ "shiny" ],

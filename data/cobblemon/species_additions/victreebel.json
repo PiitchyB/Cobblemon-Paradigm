@@ -1,9 +1,5 @@
 {
-  "implemented": true,
   "target": "cobblemon:victreebel",
-  "features": [
-    "hexonian"
-  ],
   "forms": [
     {
       "name": "Hexon",

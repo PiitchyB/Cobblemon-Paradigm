@@ -1,9 +1,5 @@
 {
-  "implemented": true,
   "target": "cobblemon:stunfisk",
-  "features": [
-    "hexonian"
-  ],
   "forms": [
     {
       "name": "Hexon",

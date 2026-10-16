@@ -1,9 +1,5 @@
 {
-  "implemented": true,
   "target": "cobblemon:magikarp",
-  "features": [
-    "hexonian"
-  ],
   "forms": [
     {
       "name": "Hexon",
