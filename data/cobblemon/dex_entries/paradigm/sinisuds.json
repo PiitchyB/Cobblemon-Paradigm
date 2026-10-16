@@ -1,0 +1,27 @@
+{
+  "id": "cobblemon:sinisuds",
+  "speciesId": "cobblemon:sinisuds",
+  "displayAspects": [],
+  "conditionAspects": [],
+  "forms": [
+    {
+      "displayForm": "Normal",
+      "unlockForms": [
+        "Normal"
+      ]
+    },
+    {
+      "displayForm": "Lime",
+      "unlockForms": [
+        "Lime"
+      ]
+    },
+    {
+      "displayForm": "Grape",
+      "unlockForms": [
+        "Grape"
+      ]
+    }
+  ],
+  "variations": []
+}

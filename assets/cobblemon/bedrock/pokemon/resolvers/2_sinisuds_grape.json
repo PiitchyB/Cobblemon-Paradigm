@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:sinisuds",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "grape" ],
+      "model": "cobblemon:sinisuds_grape.geo",
+      "texture": "cobblemon:textures/pokemon/sinisuds/sinisuds_grape.png"
+    },
+    {
+      "aspects": [ "grape", "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sinisuds/sinisuds_grape_shiny.png"
+    }
+  ]
+}

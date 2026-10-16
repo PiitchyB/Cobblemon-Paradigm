@@ -45,10 +45,10 @@
   "catchRate": 120,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 1.0,
+  "baseScale": 0.25,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 1.5,
+    "height": 2.7,
     "fixed": false
   },
   "behaviour": {
@@ -134,7 +134,7 @@
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": ""
+          "requiredContext": "minecraft:glass_bottle"
         }
       ],
       "battleOnly": false
@@ -163,7 +163,7 @@
           "consumeHeldItem": false,
           "learnableMoves": [],
           "requirements": [],
-          "requiredContext": ""
+          "requiredContext": "minecraft:glass_bottle"
         }
       ],
       "battleOnly": false

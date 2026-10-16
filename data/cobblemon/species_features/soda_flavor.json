@@ -3,7 +3,7 @@
   "keys": [
     "soda_flavor"
   ],
-  "default": "none",
+  "default": "random",
   "choices": [
     "rootbeer",
     "lime",

@@ -1,0 +1,70 @@
+{
+  "species": "cobblemon:bubblegeist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [],
+      "poser": [ "cobblemon:bubblegeist_rootbeer" ],
+      "model": "cobblemon:bubblegeist_rootbeer.geo",
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_mug.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "shiny" ],
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_mug_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "rootbeer" ],
+      "poser": [ "cobblemon:bubblegeist_rootbeer" ],
+      "model": "cobblemon:bubblegeist_rootbeer.geo",
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_mug.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "rootbeer", "shiny" ],
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_mug_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_rootbeer_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

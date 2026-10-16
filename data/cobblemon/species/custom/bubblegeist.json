@@ -17,23 +17,23 @@
     "rootbeer"
   ],
   "abilities": [
-    "clearbody",
-    "h:waterabsorb"
+    "waterabsorb",
+    "h:clearbody"
   ],
   "eggGroups": [
     "mineral",
     "amorphous"
   ],
   "baseStats": {
-    "hp": 0,
-    "attack": 0,
-    "defence": 0,
-    "special_attack": 0,
-    "special_defence": 0,
-    "speed": 0
+    "hp": 135,
+    "attack": 40,
+    "defence": 93,
+    "special_attack": 65,
+    "special_defence": 115,
+    "speed": 60
   },
   "evYield": {
-    "hp": 0,
+    "hp": 2,
     "attack": 0,
     "defence": 0,
     "special_attack": 0,
@@ -45,10 +45,10 @@
   "catchRate": 120,
   "eggCycles": 20,
   "baseFriendship": 50,
-  "baseScale": 1.0,
+  "baseScale": 0.3,
   "hitbox": {
-    "width": 1,
-    "height": 1,
+    "width": 2.5,
+    "height": 3.5,
     "fixed": false
   },
   "behaviour": {
@@ -67,11 +67,11 @@
       "maxSize": "4",
       "toleratedLeaders": [
         {
-          "pokemon": "sinisuds",
+          "pokemon": "sinisuds rootbeer",
           "tier": 1
         },
         {
-          "pokemon": "bubblegeist",
+          "pokemon": "bubblegeist rootbeer",
           "tier": 2
         }
       ]
@@ -118,9 +118,68 @@
         "lime"
       ],
       "abilities": [
-        "speedboost",
-        "h:dryskin"
+        "dryskin",
+        "h:speedboost"
       ],
+      "baseStats": {
+        "hp": 60,
+        "attack": 108,
+        "defence": 55,
+        "special_attack": 115,
+        "special_defence": 45,
+        "speed": 125
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 1,
+        "special_defence": 0,
+        "speed": 1
+      },
+      "baseScale": 0.20,
+      "hitbox": {
+        "width": 2,
+        "height": 6.5,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "sinisuds lime",
+              "tier": 1
+            },
+            {
+              "pokemon": "bubblegeist lime",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": [
+            "night"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
       "battleOnly": false
     },
     {
@@ -140,9 +199,68 @@
         "grape"
       ],
       "abilities": [
-        "friendguard",
-        "h:stormdrain"
+        "stormdrain",
+        "h:friendguard"
       ],
+      "baseStats": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "evYield": {
+        "hp": 0,
+        "attack": 0,
+        "defence": 0,
+        "special_attack": 0,
+        "special_defence": 0,
+        "speed": 0
+      },
+      "baseScale": 0.25,
+      "hitbox": {
+        "width": 2,
+        "height": 3.5,
+        "fixed": false
+      },
+      "behaviour": {
+        "moving": {
+          "fly": {
+            "canFly": true
+          },
+          "swim": {
+            "avoidsWater": true
+          },
+          "walk": {
+            "canWalk": false
+          }
+        },
+        "herd": {
+          "maxSize": "4",
+          "toleratedLeaders": [
+            {
+              "pokemon": "sinisuds grape",
+              "tier": 1
+            },
+            {
+              "pokemon": "bubblegeist grape",
+              "tier": 2
+            }
+          ]
+        },
+        "resting": {
+          "willSleepOnBed": true,
+          "times": [
+            "night"
+          ],
+          "drowsyChance": 0.0033,
+          "rouseChance": 0.0042
+        },
+        "combat": {
+          "willDefendOwner": true
+        }
+      },
       "battleOnly": false
     }
   ]

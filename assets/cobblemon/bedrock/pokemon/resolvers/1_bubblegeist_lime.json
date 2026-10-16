@@ -1,0 +1,44 @@
+{
+  "species": "cobblemon:bubblegeist",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "lime" ],
+      "poser": [ "cobblemon:bubblegeist_lime" ],
+      "model": "cobblemon:bubblegeist_lime.geo",
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_lime.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_lime_bottle.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [ "lime", "shiny" ],
+      "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_lime_shiny.png",
+      "layers": [
+        {
+          "name": "transparency",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_lime_bottle_shiny.png",
+          "translucent": true,
+          "translucent_cull": true
+        }
+      ]
+    },
+    {
+      "aspects": [
+        "alpha_eyes", "lime"
+      ],
+      "layers": [
+        {
+          "name": "alpha_eyes",
+          "texture": "cobblemon:textures/pokemon/bubblegeist/bubblegeist_lime_alpha.png",
+          "emissive": true
+        }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+{
+  "species": "cobblemon:sinisuds",
+  "order": 0,
+  "variations": [
+    {
+      "aspects": [ "lime" ],
+      "model": "cobblemon:sinisuds_lime.geo",
+      "texture": "cobblemon:textures/pokemon/sinisuds/sinisuds_lime.png"
+    },
+    {
+      "aspects": [ "lime", "shiny" ],
+      "texture": "cobblemon:textures/pokemon/sinisuds/sinisuds_lime_shiny.png"
+    }
+  ]
+}
