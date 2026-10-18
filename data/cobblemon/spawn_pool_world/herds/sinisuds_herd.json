@@ -1,0 +1,74 @@
+{
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sinisuds-herd-1",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "9-54",
+      "weight": 12.0,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sinisuds",
+          "weight": 80.0,
+          "levelRange": "12-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "bubblegeist",
+          "weight": 10.0,
+          "levelRange": "34-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    },
+    {
+      "id": "sinisuds-herd-2",
+      "type": "pokemon-herd",
+      "bucket": "uncommon",
+      "spawnablePositionType": "grounded",
+      "maxHerdSize": 4,
+      "levelRange": "9-54",
+      "weight": 12.0,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      },
+      "herdablePokemon": [
+        {
+          "pokemon": "sinisuds",
+          "weight": 80.0,
+          "levelRange": "12-34",
+          "levelRangeOffset": "-3-3",
+          "maxTimes": 7,
+          "isLeader": false,
+          "isFollower": true
+        },
+        {
+          "pokemon": "bubblegeist",
+          "weight": 10.0,
+          "levelRange": "34-50",
+          "levelRangeOffset": "-2-4",
+          "maxTimes": 2,
+          "isLeader": false,
+          "isFollower": true
+        }
+      ]
+    }
+  ]
+}

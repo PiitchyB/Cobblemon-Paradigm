@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "sinisuds-1",
+      "pokemon": "sinisuds",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 44.16,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
+      }
+    },
+    {
+      "id": "sinisuds-2",
+      "pokemon": "sinisuds",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "12-32",
+      "weight": 44.16,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    }
+  ]
+}

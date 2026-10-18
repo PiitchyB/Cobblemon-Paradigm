@@ -1,0 +1,41 @@
+{
+  "enabled": true,
+  "neededInstalledMods": [],
+  "neededUninstalledMods": [],
+  "spawns": [
+    {
+      "id": "bubblegeist-1",
+      "pokemon": "bubblegeist",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-50",
+      "weight": 3.84,
+      "condition": {
+        "biomes": [
+          "#cobblemon:is_beach"
+        ]
+      }
+    },
+    {
+      "id": "bubblegeist-2",
+      "pokemon": "bubblegeist",
+      "presets": [
+        "natural"
+      ],
+      "type": "pokemon",
+      "spawnablePositionType": "grounded",
+      "bucket": "uncommon",
+      "level": "33-50",
+      "weight": 3.84,
+      "condition": {
+        "structures": [
+          "#minecraft:village"
+        ]
+      }
+    }
+  ]
+}

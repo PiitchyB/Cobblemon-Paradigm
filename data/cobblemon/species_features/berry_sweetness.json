@@ -1,0 +1,41 @@
+{
+  "type": "integer",
+  "keys": ["berry_sweetness"],
+  "default": 0,
+  "min": 0,
+  "max": 100,
+  "visible": true,
+  "display": {
+    "name": "cobblemon.ui.stash.berry_sweetness",
+    "colour": [255, 85, 255],
+    "underlay": "cobblemon:textures/gui/summary/summary_stats_other_bar.png",
+    "overlay": "cobblemon:textures/gui/summary/summary_stats_berry_overlay.png"
+  },
+  "itemPoints": {
+    "cobblemon:persim_berry": 2,
+    "cobblemon:eggant_berry": 1,
+    "cobblemon:bluk_berry": 1,
+    "cobblemon:nanab_berry": 2,
+    "cobblemon:cornn_berry": 2,
+    "cobblemon:magost_berry": 4,
+    "cobblemon:pamtre_berry": 2,
+    "cobblemon:watmel_berry": 6,
+    "cobblemon:occa_berry": 2,
+    "cobblemon:wacan_berry": 3,
+    "cobblemon:shuca_berry": 3,
+    "cobblemon:payapa_berry": 2,
+    "cobblemon:kasib_berry": 4,
+    "cobblemon:haban_berry": 2,
+    "cobblemon:chilan_berry": 2,
+    "cobblemon:liechi_berry": 6,
+    "cobblemon:ganlon_berry": 2,
+    "cobblemon:salac_berry": 6,
+    "cobblemon:lansat_berry": 6,
+    "cobblemon:starf_berry": 6,
+    "cobblemon:micle_berry": 2,
+    "cobblemon:custap_berry": 8,
+    "cobblemon:roseli_berry": 5,
+    "cobblemon:kee_berry": 2,
+    "cobblemon:maranga_berry": 6
+  }
+}

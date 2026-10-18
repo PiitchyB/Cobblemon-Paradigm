@@ -125,6 +125,7 @@
     "tm:gigadrain",
     "tm:gigaimpact",
     "tm:hex",
+    "tm:hydropump",
     "tm:hyperbeam",
     "tm:imprison",
     "tm:lightscreen",
@@ -153,17 +154,43 @@
     "tm:trick",
     "tm:trickroom",
     "tm:willowisp",
-    "tm:wonderroom"
+    "tm:wonderroom",
+    "tutor:allyswitch",
+    "tutor:calmmind",
+    "tutor:darkpulse",
+    "tutor:endure",
+    "tutor:foulplay",
+    "tutor:gigadrain",
+    "tutor:gigaimpact",
+    "tutor:hyperbeam",
+    "tutor:magicalleaf",
+    "tutor:metronome",
+    "tutor:nightshade",
+    "tutor:painsplit",
+    "tutor:poltergeist",
+    "tutor:rest",
+    "tutor:shadowball",
+    "tutor:skillswap",
+    "tutor:sleeptalk",
+    "tutor:spite",
+    "tutor:substitute",
+    "tutor:suckerpunch",
+    "tutor:trick",
+    "tutor:wonderroom"
   ],
   "evolutions": [
     {
       "id": "sinisuds_bubblegeistrootbeer",
-      "variant": "item_interact",
+      "variant": "level_up",
       "result": "bubblegeist soda_flavor=rootbeer",
       "consumeHeldItem": false,
       "learnableMoves": [],
-      "requirements": [],
-      "requiredContext": "minecraft:glass_bottle"
+      "requirements": [
+        {
+          "variant": "properties",
+          "target": "sinisuds berry_sweetness=100"
+        }
+      ]
     }
   ],
   "forms": [
@@ -200,6 +227,7 @@
         "speed": 1
       },
       "moves": [
+        "1:lifedew",
         "1:fairywind",
         "1:nuzzle",
         "6:aromaticmist",
@@ -224,6 +252,7 @@
         "tm:foulplay",
         "tm:gigaimpact",
         "tm:hex",
+        "tm:hydropump",
         "tm:hyperbeam",
         "tm:imprison",
         "tm:lightscreen",
@@ -249,23 +278,50 @@
         "tm:storedpower",
         "tm:substitute",
         "tm:suckerpunch",
+        "tm:swordsdance",
         "tm:terablast",
         "tm:thunderbolt",
         "tm:trick",
         "tm:trickroom",
         "tm:voltswitch",
         "tm:willowisp",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tutor:darkpulse",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:metronome",
+        "tutor:nightshade",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:psychic",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:shockwave",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:swordsdance",
+        "tutor:thunderbolt",
+        "tutor:trick",
+        "tutor:wonderroom"
       ],
       "evolutions": [
         {
           "id": "sinisuds_bubblegeistlime",
-          "variant": "item_interact",
+          "variant": "level_up",
           "result": "bubblegeist soda_flavor=lime",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "minecraft:glass_bottle"
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "sinisuds berry_sweetness=100"
+            }
+          ]
         }
       ],
       "battleOnly": false
@@ -312,6 +368,7 @@
         "30:sweetscent",
         "36:gigadrain",
         "42:mudbomb",
+        "45:wideguard",
         "48:shadowball",
         "52:moonblast",
         "54:earthpower",
@@ -332,6 +389,7 @@
         "tm:gigadrain",
         "tm:gigaimpact",
         "tm:hex",
+        "tm:hydropump",
         "tm:hyperbeam",
         "tm:imprison",
         "tm:lightscreen",
@@ -361,17 +419,45 @@
         "tm:trick",
         "tm:trickroom",
         "tm:willowisp",
-        "tm:wonderroom"
+        "tm:wonderroom",
+        "tutor:allyswitch",
+        "tutor:babydolleyes",
+        "tutor:bulldoze",
+        "tutor:calmmind",
+        "tutor:darkpulse",
+        "tutor:endure",
+        "tutor:foulplay",
+        "tutor:gigadrain",
+        "tutor:gigaimpact",
+        "tutor:hyperbeam",
+        "tutor:magicalleaf",
+        "tutor:metronome",
+        "tutor:nightshade",
+        "tutor:painsplit",
+        "tutor:poltergeist",
+        "tutor:rest",
+        "tutor:shadowball",
+        "tutor:skillswap",
+        "tutor:sleeptalk",
+        "tutor:spite",
+        "tutor:substitute",
+        "tutor:suckerpunch",
+        "tutor:trick",
+        "tutor:wonderroom"
       ],
       "evolutions": [
         {
           "id": "sinisuds_bubblegeistgrape",
-          "variant": "item_interact",
+          "variant": "level_up",
           "result": "bubblegeist soda_flavor=grape",
           "consumeHeldItem": false,
           "learnableMoves": [],
-          "requirements": [],
-          "requiredContext": "minecraft:glass_bottle"
+          "requirements": [
+            {
+              "variant": "properties",
+              "target": "sinisuds berry_sweetness=100"
+            }
+          ]
         }
       ],
       "battleOnly": false
